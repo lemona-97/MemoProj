@@ -28,6 +28,7 @@
 		FA93495C297D074400B77A41 /* MEMODATA+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93495A297D074400B77A41 /* MEMODATA+CoreDataProperties copy.swift */; };
 		FA93495E297D1D7A00B77A41 /* firstStartAppFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93495D297D1D7A00B77A41 /* firstStartAppFunc.swift */; };
 		FA934964297D286D00B77A41 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA934963297D286D00B77A41 /* UINavigationController.swift */; };
+		FA934968297E5F7E00B77A41 /* ModiMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA934967297E5F7E00B77A41 /* ModiMemoViewController.swift */; };
 		FAC598B7297B8BCF00E67AEF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC598B6297B8BCF00E67AEF /* TabBarViewController.swift */; };
 		FAC598B9297B8C1200E67AEF /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC598B8297B8C1200E67AEF /* MemoViewController.swift */; };
 		FAC598BB297B8C3300E67AEF /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC598BA297B8C3300E67AEF /* DiaryViewController.swift */; };
@@ -83,6 +84,7 @@
 		FA93495A297D074400B77A41 /* MEMODATA+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MEMODATA+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
 		FA93495D297D1D7A00B77A41 /* firstStartAppFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstStartAppFunc.swift; sourceTree = "<group>"; };
 		FA934963297D286D00B77A41 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		FA934967297E5F7E00B77A41 /* ModiMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModiMemoViewController.swift; sourceTree = "<group>"; };
 		FAC598B6297B8BCF00E67AEF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		FAC598B8297B8C1200E67AEF /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		FAC598BA297B8C3300E67AEF /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
@@ -210,13 +212,30 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
-		FAC598BE297B8C5600E67AEF /* Pages */ = {
+		FA934965297D48FC00B77A41 /* MEMO */ = {
 			isa = PBXGroup;
 			children = (
 				FAC598B8297B8C1200E67AEF /* MemoViewController.swift */,
+				FA934967297E5F7E00B77A41 /* ModiMemoViewController.swift */,
 				FA934955297BC84300B77A41 /* AddMemoViewController.swift */,
 				FA93494F297BC1F200B77A41 /* MemoTableViewCell.swift */,
+			);
+			path = MEMO;
+			sourceTree = "<group>";
+		};
+		FA934966297D490600B77A41 /* DIARY */ = {
+			isa = PBXGroup;
+			children = (
 				FAC598BA297B8C3300E67AEF /* DiaryViewController.swift */,
+			);
+			path = DIARY;
+			sourceTree = "<group>";
+		};
+		FAC598BE297B8C5600E67AEF /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FA934965297D48FC00B77A41 /* MEMO */,
+				FA934966297D490600B77A41 /* DIARY */,
 				FAC598BC297B8C4700E67AEF /* SettingViewController.swift */,
 			);
 			path = Pages;
@@ -461,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA43ED7B297A45E4000DA9BD /* AppDelegate.swift in Sources */,
+				FA934968297E5F7E00B77A41 /* ModiMemoViewController.swift in Sources */,
 				FA934954297BC44D00B77A41 /* UIColor.swift in Sources */,
 				FA93494C297BAE4E00B77A41 /* UIImage.swift in Sources */,
 				FAC598B9297B8C1200E67AEF /* MemoViewController.swift in Sources */,

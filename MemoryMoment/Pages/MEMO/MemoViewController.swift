@@ -154,5 +154,24 @@ extension MemoViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 168
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nextView = ModiMemoViewController()
+        nextView.objectId = fetchedMemoDataArray[indexPath.row].objectID
+        self.navigationController?.navigationBar.topItem?.title = ""
+        self.navigationController?.navigationBar.tintColor = .white
+        self.navigationController?.pushViewController(nextView, animated: true)        
+    }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        let wantToDeleteObjectId = fetchedMemoDataArray[indexPath.row].objectID
+        self.container.viewContext.delete(fetchedMemoDataArray[indexPath.row])
+        
+        if editingStyle == .delete {
+            fetchedMemoDataArray.remove(at: indexPath.row)
+            memoTableViewCellCount -= 1
+            
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        } else if editingStyle == .insert {
+            
+        }
+    }
 }
