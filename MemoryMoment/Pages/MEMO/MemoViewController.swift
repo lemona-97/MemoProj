@@ -162,7 +162,6 @@ extension MemoViewController: UITableViewDelegate, UITableViewDataSource {
         self.navigationController?.pushViewController(nextView, animated: true)        
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        let wantToDeleteObjectId = fetchedMemoDataArray[indexPath.row].objectID
         self.container.viewContext.delete(fetchedMemoDataArray[indexPath.row])
         
         if editingStyle == .delete {
