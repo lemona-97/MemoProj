@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/wooseob/git/MemoryMoment/MEMODATA+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/wooseob/git/MemoryMoment/DIARYDATA+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:MemoryMoment.xcodeproj">
    </FileRef>
    <FileRef

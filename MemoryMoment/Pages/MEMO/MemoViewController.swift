@@ -18,7 +18,7 @@ class MemoViewController: UIViewController {
     
     let memoTableView = UITableView()
     
-    var container: NSPersistentContainer!
+    var memoContainer: NSPersistentContainer!
     var fetchedMemoDataArray = [MEMODATA]()
     var memoTableViewCellCount = 1
     
@@ -45,10 +45,10 @@ class MemoViewController: UIViewController {
     }
     private func checkFirst() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        container = appDelegate.persistentContainer
+        memoContainer = appDelegate.persistentContainer
         checkAppFirstrunOrUpdateStatus {
             print("앱 설치 후 최초 실행할때만 실행됨")
-            firstCoreData(container)
+            firstCoreData(memoContainer)
         } updated: {
             print("버전 변경시마다 실행됨")
         } nothingChanged: {
@@ -126,9 +126,8 @@ class MemoViewController: UIViewController {
     }
     private func fetchCoreData() {
         do {
-            let fetchedMemoData = try self.container.viewContext.fetch(MEMODATA.fetchRequest()) as [MEMODATA]
+            let fetchedMemoData = try self.memoContainer.viewContext.fetch(MEMODATA.fetchRequest()) as [MEMODATA]
             memoTableViewCellCount = fetchedMemoData.count
-            print("Memo Count is \(memoTableViewCellCount)")
             fetchedMemoDataArray = fetchedMemoData
             memoTableView.reloadData()
             
@@ -152,7 +151,7 @@ extension MemoViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 168
+        return 120
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let nextView = ModiMemoViewController()
@@ -162,7 +161,7 @@ extension MemoViewController: UITableViewDelegate, UITableViewDataSource {
         self.navigationController?.pushViewController(nextView, animated: true)        
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        self.container.viewContext.delete(fetchedMemoDataArray[indexPath.row])
+        self.memoContainer.viewContext.delete(fetchedMemoDataArray[indexPath.row])
         
         if editingStyle == .delete {
             fetchedMemoDataArray.remove(at: indexPath.row)

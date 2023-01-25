@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '15.0'
 
 target 'MemoryMoment' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -8,7 +8,7 @@ target 'MemoryMoment' do
   pod 'Then'
   pod 'SnapKit'
   pod 'RxGesture'
-
+  pod 'FSCalendar'
   # Pods for MemoryMoment
 	
   target 'MemoryMomentTests' do
