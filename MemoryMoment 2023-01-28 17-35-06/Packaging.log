@@ -1,0 +1,933 @@
+2023-01-28 08:34:41 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2e33c7070; archive(resolved)="<IDEArchive: 0x600057fa5920>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2e33c7070; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2f05d3420; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2e4e33790; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ed1f1640; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fc7db900; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x12df987c0; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fc8afab0; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x456e11710; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ed1ad260; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fc8af320; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fc8ce820; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fc8ce620; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x45089ce30; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000003e11c0; teamID='WJVGRM2SN6', teamName='WOOSEOB LIM', teamType='Individual', username='wcbe9745@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2a3e8c280; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="(null)">
+	<IDEDistributionContext: 0x453c5d3c0; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000118e1730>", team="(null)">
+	<IDEDistributionContext: 0x2feedbde0; archive = "<IDEArchive: 0x600057fa5920>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2e33c7070>
+2023-01-28 08:34:41 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-01-28 08:34:41 +0000  Processing step: IDEDistributionCopyItemStep
+2023-01-28 08:34:41 +0000  Running /usr/bin/ditto '-V' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app'
+2023-01-28 08:34:41 +0000  >>> Copying /Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app 
+2023-01-28 08:34:41 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-01-28 08:34:41 +0000  11083 bytes for ./_CodeSignature/CodeResources
+2023-01-28 08:34:41 +0000  copying file ./Maplestory OTF Light.otf ... 
+2023-01-28 08:34:41 +0000  676916 bytes for ./Maplestory OTF Light.otf
+2023-01-28 08:34:41 +0000  copying file ./MemoryMoment.momd/VersionInfo.plist ... 
+2023-01-28 08:34:41 +0000  199 bytes for ./MemoryMoment.momd/VersionInfo.plist
+2023-01-28 08:34:41 +0000  copying file ./MemoryMoment.momd/MemoryMoment.mom ... 
+2023-01-28 08:34:41 +0000  1771 bytes for ./MemoryMoment.momd/MemoryMoment.mom
+2023-01-28 08:34:41 +0000  copying file ./JalnanOTF.otf ... 
+2023-01-28 08:34:41 +0000  700060 bytes for ./JalnanOTF.otf
+2023-01-28 08:34:41 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-01-28 08:34:41 +0000  4742 bytes for ./AppIcon60x60@2x.png
+2023-01-28 08:34:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-01-28 08:34:41 +0000  2248 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-01-28 08:34:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-01-28 08:34:41 +0000  1014 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-01-28 08:34:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-01-28 08:34:41 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2023-01-28 08:34:41 +0000  copying file ./Assets.car ... 
+2023-01-28 08:34:41 +0000  126480 bytes for ./Assets.car
+2023-01-28 08:34:41 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2023-01-28 08:34:41 +0000  5850 bytes for ./AppIcon76x76@2x~ipad.png
+2023-01-28 08:34:42 +0000  copying file ./KOTRA HOPE.otf ... 
+2023-01-28 08:34:42 +0000  3078172 bytes for ./KOTRA HOPE.otf
+2023-01-28 08:34:42 +0000  copying file ./MemoryMoment ... 
+2023-01-28 08:34:42 +0000  260816 bytes for ./MemoryMoment
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/Then.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/Then.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/Then.framework/Then ... 
+2023-01-28 08:34:42 +0000  90064 bytes for ./Frameworks/Then.framework/Then
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/Then.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  776 bytes for ./Frameworks/Then.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxRelay.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/RxRelay.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxRelay.framework/RxRelay ... 
+2023-01-28 08:34:42 +0000  109456 bytes for ./Frameworks/RxRelay.framework/RxRelay
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxRelay.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  782 bytes for ./Frameworks/RxRelay.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/FSCalendar.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/FSCalendar.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/FSCalendar.framework/FSCalendar ... 
+2023-01-28 08:34:42 +0000  496448 bytes for ./Frameworks/FSCalendar.framework/FSCalendar
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/FSCalendar.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  788 bytes for ./Frameworks/FSCalendar.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxGesture.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/RxGesture.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxGesture.framework/RxGesture ... 
+2023-01-28 08:34:42 +0000  304016 bytes for ./Frameworks/RxGesture.framework/RxGesture
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxGesture.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  786 bytes for ./Frameworks/RxGesture.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit ... 
+2023-01-28 08:34:42 +0000  399536 bytes for ./Frameworks/SnapKit.framework/SnapKit
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/SnapKit.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  783 bytes for ./Frameworks/SnapKit.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxCocoa.framework/RxCocoa ... 
+2023-01-28 08:34:42 +0000  1843552 bytes for ./Frameworks/RxCocoa.framework/RxCocoa
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxCocoa.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  782 bytes for ./Frameworks/RxCocoa.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:42 +0000  1798 bytes for ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxSwift.framework/RxSwift ... 
+2023-01-28 08:34:42 +0000  2700480 bytes for ./Frameworks/RxSwift.framework/RxSwift
+2023-01-28 08:34:42 +0000  copying file ./Frameworks/RxSwift.framework/Info.plist ... 
+2023-01-28 08:34:42 +0000  782 bytes for ./Frameworks/RxSwift.framework/Info.plist
+2023-01-28 08:34:42 +0000  copying file ./LeeSeoyun.otf ... 
+2023-01-28 08:34:42 +0000  676056 bytes for ./LeeSeoyun.otf
+2023-01-28 08:34:42 +0000  copying file ./embedded.mobileprovision ... 
+2023-01-28 08:34:42 +0000  18555 bytes for ./embedded.mobileprovision
+2023-01-28 08:34:42 +0000  copying file ./KyoboHandwriting2021sjy.otf ... 
+2023-01-28 08:34:42 +0000  4767332 bytes for ./KyoboHandwriting2021sjy.otf
+2023-01-28 08:34:42 +0000  copying file ./Info.plist ... 
+2023-01-28 08:34:42 +0000  1799 bytes for ./Info.plist
+2023-01-28 08:34:42 +0000  copying file ./PkgInfo ... 
+2023-01-28 08:34:42 +0000  8 bytes for ./PkgInfo
+2023-01-28 08:34:42 +0000  /usr/bin/ditto exited with 0
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd0780; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x60002f0a2760:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083868460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5b5a0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x60003f2fea70:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd07e0; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x60002f0a8460:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008386ac60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46f70; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x600057fd5260:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd0e40; bundleID='org.cocoapods.RxGesture', path='<DVTFilePath:0x60002f27f790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083811bd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46f70; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxGesture', executablePath='<DVTFilePath:0x60003f2ff790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x60002f27d0a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083860640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46f70; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x600057fd54a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd0c00; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x60002f27edf0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008381a6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5b5a0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x600057fd67c0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fd0ae0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x60002f27fa30:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838d93b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5b5a0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x600057fd59e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x600057fc7e40; bundleID='org.cocoapods.Then', path='<DVTFilePath:0x60002f27ee60:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838525d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5b5a0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.Then', executablePath='<DVTFilePath:0x600057fd5c20:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework/Then'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionItemRemovalStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-01-28 08:34:42 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-01-28 08:34:42 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionSymbolsStep
+2023-01-28 08:34:42 +0000  Processing symbols for FSCalendar.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  FSCalendar.framework/
+2023-01-28 08:34:42 +0000  FSCalendar.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/FSCalendar.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  FSCalendar.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 227 bytes  received 38 bytes  530.00 bytes/sec
+total size is 487.37K  speedup is 1883.26
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.57K bytes  received 218 bytes  3.56K bytes/sec
+total size is 15.08M  speedup is 8677.11
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/077295B3-25DE-38BC-B807-55694B9AE35C.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for RxCocoa.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  RxCocoa.framework/
+2023-01-28 08:34:42 +0000  RxCocoa.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/RxCocoa.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  RxCocoa.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 221 bytes  received 38 bytes  518.00 bytes/sec
+total size is 1.76M  speedup is 7128.03
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+2023-01-28 08:34:42 +0000  SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/5FF630DF-CE92-32F3-9813-79E7EE1C2A4B.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for RxGesture.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  RxGesture.framework/
+2023-01-28 08:34:42 +0000  RxGesture.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/RxGesture.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  RxGesture.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 225 bytes  received 38 bytes  526.00 bytes/sec
+total size is 299.44K  speedup is 1165.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+RxGesture.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/436D55B1-CF53-3538-BD32-2F51FC5AA199.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for RxRelay.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  RxRelay.framework/
+2023-01-28 08:34:42 +0000  RxRelay.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/RxRelay.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  RxRelay.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 221 bytes  received 38 bytes  518.00 bytes/sec
+total size is 109.44K  speedup is 432.68
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+2023-01-28 08:34:42 +0000  SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/1B897EF3-A375-399C-BEEF-EE18DE2B22FF.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for RxSwift.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  RxSwift.framework/
+2023-01-28 08:34:42 +0000  RxSwift.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/RxSwift.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  RxSwift.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 221 bytes  received 38 bytes  518.00 bytes/sec
+total size is 2.58M  speedup is 10436.64
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/89353329-8974-37F7-B198-CA7379E0A90B.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for SnapKit.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  SnapKit.framework/
+2023-01-28 08:34:42 +0000  SnapKit.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/SnapKit.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  SnapKit.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 221 bytes  received 38 bytes  518.00 bytes/sec
+total size is 392.72K  speedup is 1552.69
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/ADF12504-35B3-3B86-A2A0-941B0BDD4E2F.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for Then.framework
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  5 files to consider
+2023-01-28 08:34:42 +0000  Then.framework/
+2023-01-28 08:34:42 +0000  Then.framework/_CodeSignature/
+rsync: link "/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Then.framework/_CodeSignature/CodeResources" => /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2023-01-28 08:34:42 +0000  Then.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 215 bytes  received 38 bytes  506.00 bytes/sec
+total size is 90.50K  speedup is 366.27
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+FSCalendar.framework.dSYM/Contents/Resources/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/A04C5E44-8560-3483-ABCE-1819BFB87009.symbols
+2023-01-28 08:34:42 +0000  Processing symbols for MemoryMoment.app
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  59 files to consider
+2023-01-28 08:34:42 +0000  MemoryMoment.app/
+2023-01-28 08:34:42 +0000  MemoryMoment.app/Base.lproj/
+MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/
+MemoryMoment.app/Frameworks/
+MemoryMoment.app/Frameworks/FSCalendar.framework/
+2023-01-28 08:34:42 +0000  MemoryMoment.app/Frameworks/FSCalendar.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/RxCocoa.framework/
+MemoryMoment.app/Frameworks/RxCocoa.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/RxGesture.framework/
+MemoryMoment.app/Frameworks/RxGesture.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/RxRelay.framework/
+MemoryMoment.app/Frameworks/RxRelay.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/RxSwift.framework/
+MemoryMoment.app/Frameworks/RxSwift.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/SnapKit.framework/
+MemoryMoment.app/Frameworks/SnapKit.framework/_CodeSignature/
+MemoryMoment.app/Frameworks/Then.framework/
+MemoryMoment.app/Frameworks/Then.framework/_CodeSignature/
+MemoryMoment.app/MemoryMoment.momd/
+MemoryMoment.app/_CodeSignature/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 2.01K bytes  received 140 bytes  4.29K bytes/sec
+total size is 15.54M  speedup is 7426.21
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '--link-dest' '/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/dSYMs/' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c'
+2023-01-28 08:34:42 +0000  building file list ... 
+2023-01-28 08:34:42 +0000   0 files...2023-01-28 08:34:42 +0000  49 files to consider
+2023-01-28 08:34:42 +0000  ./
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/
+FSCalendar.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  FSCalendar.framework.dSYM/Contents/Resources/
+FSCalendar.framework.dSYM/Contents/Resources/DWARF/
+MemoryMoment.app.dSYM/
+MemoryMoment.app.dSYM/Contents/
+MemoryMoment.app.dSYM/Contents/Resources/
+MemoryMoment.app.dSYM/Contents/Resources/DWARF/
+RxCocoa.framework.dSYM/
+RxCocoa.framework.dSYM/Contents/
+RxCocoa.framework.dSYM/Contents/Resources/
+RxCocoa.framework.dSYM/Contents/Resources/DWARF/
+RxGesture.framework.dSYM/
+RxGesture.framework.dSYM/Contents/
+2023-01-28 08:34:42 +0000  RxGesture.framework.dSYM/Contents/Resources/
+RxGesture.framework.dSYM/Contents/Resources/DWARF/
+RxRelay.framework.dSYM/
+RxRelay.framework.dSYM/Contents/
+RxRelay.framework.dSYM/Contents/Resources/
+RxRelay.framework.dSYM/Contents/Resources/DWARF/
+RxSwift.framework.dSYM/
+RxSwift.framework.dSYM/Contents/
+RxSwift.framework.dSYM/Contents/Resources/
+RxSwift.framework.dSYM/Contents/Resources/DWARF/
+SnapKit.framework.dSYM/
+SnapKit.framework.dSYM/Contents/
+SnapKit.framework.dSYM/Contents/Resources/
+SnapKit.framework.dSYM/Contents/Resources/DWARF/
+Then.framework.dSYM/
+Then.framework.dSYM/Contents/
+Then.framework.dSYM/Contents/Resources/
+Then.framework.dSYM/Contents/Resources/DWARF/
+2023-01-28 08:34:42 +0000  
+2023-01-28 08:34:42 +0000  sent 1.66K bytes  received 314 bytes  3.93K bytes/sec
+total size is 15.08M  speedup is 7849.89
+2023-01-28 08:34:42 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:42 +0000  Writing /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols/71739056-ADC5-33B8-845F-58B3332AE89C.symbols
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionAppThinningStep
+2023-01-28 08:34:42 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionArchThinningStep
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "FSCalendar" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "RxCocoa" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "RxGesture" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "RxRelay" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "RxSwift" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "SnapKit" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework/Then' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "Then" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/MemoryMoment' '-verify_arch' 'arm64e'
+2023-01-28 08:34:42 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-01-28 08:34:42 +0000  Skipping architecture thinning for item "MemoryMoment" because arch "arm64e" wasn't found
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionODRStep
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd0780; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x60002f0a2760:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083868460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x60003f2fea70:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd07e0; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x60002f0a8460:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008386ac60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x600057fd5260:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd0e40; bundleID='org.cocoapods.RxGesture', path='<DVTFilePath:0x60002f27f790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083811bd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxGesture', executablePath='<DVTFilePath:0x60003f2ff790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x60002f27d0a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083860640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x600057fd54a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd0c00; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x60002f27edf0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008381a6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x600057fd67c0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fd0ae0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x60002f27fa30:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838d93b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x600057fd59e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600057fc7e40; bundleID='org.cocoapods.Then', path='<DVTFilePath:0x60002f27ee60:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838525d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.Then', executablePath='<DVTFilePath:0x600057fd5c20:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework/Then'>', hardenedRuntime='0'>'>
+2023-01-28 08:34:42 +0000  Running /usr/bin/xattr '-crs' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app'
+2023-01-28 08:34:42 +0000  /usr/bin/xattr exited with 0
+2023-01-28 08:34:42 +0000  Processing step: IDEDistributionCodesignStep
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0780; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x60002f0a2760:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083868460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x60003f2fea70:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0780; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x60002f0a2760:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083868460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c370; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x60003f2fea70:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd0780; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x60002f0a2760:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083868460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c790; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x60003f2fea70:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~7mbtov
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~7mbtov' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework: replacing existing signature
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.FSCalendar]
+2023-01-28 08:34:42 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd07e0; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x60002f0a8460:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008386ac60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x600057fd5260:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd07e0; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x60002f0a8460:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008386ac60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x600057fd5260:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd07e0; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x60002f0a8460:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008386ac60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x600057fd5260:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~Ptyr1v
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~Ptyr1v' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework: replacing existing signature
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxCocoa]
+2023-01-28 08:34:42 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0e40; bundleID='org.cocoapods.RxGesture', path='<DVTFilePath:0x60002f27f790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083811bd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxGesture', executablePath='<DVTFilePath:0x60003f2ff790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0e40; bundleID='org.cocoapods.RxGesture', path='<DVTFilePath:0x60002f27f790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083811bd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxGesture', executablePath='<DVTFilePath:0x60003f2ff790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd0e40; bundleID='org.cocoapods.RxGesture', path='<DVTFilePath:0x60002f27f790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083811bd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxGesture', executablePath='<DVTFilePath:0x60003f2ff790:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~41RB2v
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~41RB2v' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework: replacing existing signature
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxGesture]
+2023-01-28 08:34:42 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x60002f27d0a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083860640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x600057fd54a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x60002f27d0a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083860640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x600057fd54a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x60002f27d0a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600083860640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c44bb0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x600057fd54a0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~gsKGa0
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~gsKGa0' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework: replacing existing signature
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxRelay]
+2023-01-28 08:34:42 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0c00; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x60002f27edf0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008381a6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x600057fd67c0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0c00; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x60002f27edf0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008381a6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x600057fd67c0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd0c00; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x60002f27edf0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008381a6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c5c160; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x600057fd67c0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~zvAjho
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~zvAjho' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework: replacing existing signature
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxSwift]
+2023-01-28 08:34:42 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0ae0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x60002f27fa30:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838d93b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x600057fd59e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:42 +0000  Entitlements for <IDEDistributionItem: 0x600057fd0ae0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x60002f27fa30:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838d93b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x600057fd59e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:42 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd0ae0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x60002f27fa30:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838d93b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c44bb0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x600057fd59e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~qqBfQt
+2023-01-28 08:34:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~qqBfQt' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework'
+2023-01-28 08:34:42 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework: replacing existing signature
+2023-01-28 08:34:43 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SnapKit]
+2023-01-28 08:34:43 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:43 +0000  Entitlements for <IDEDistributionItem: 0x600057fc7e40; bundleID='org.cocoapods.Then', path='<DVTFilePath:0x60002f27ee60:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838525d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016fe0000; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.Then', executablePath='<DVTFilePath:0x600057fd5c20:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework/Then'>', hardenedRuntime='0'>'>: {
+}
+2023-01-28 08:34:43 +0000  Entitlements for <IDEDistributionItem: 0x600057fc7e40; bundleID='org.cocoapods.Then', path='<DVTFilePath:0x60002f27ee60:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838525d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c47de0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.Then', executablePath='<DVTFilePath:0x600057fd5c20:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework/Then'>', hardenedRuntime='0'>'> are: {
+}
+2023-01-28 08:34:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fc7e40; bundleID='org.cocoapods.Then', path='<DVTFilePath:0x60002f27ee60:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838525d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c446e0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='(null)', teamID='WJVGRM2SN6', identifier='org.cocoapods.Then', executablePath='<DVTFilePath:0x600057fd5c20:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/Frameworks/Then.framework/Then'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~ECYEdp
+2023-01-28 08:34:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~ECYEdp' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework'
+2023-01-28 08:34:43 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework: replacing existing signature
+2023-01-28 08:34:43 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Then]
+2023-01-28 08:34:43 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:43 +0000  Entitlements for <IDEDistributionItem: 0x600057fd16e0; bundleID='Com.WooSeob.MemoryMoment', path='<DVTFilePath:0x60002f3ff8e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838127b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c46680; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='{
+    "application-identifier" = "WJVGRM2SN6.Com.WooSeob.MemoryMoment";
+    "com.apple.developer.team-identifier" = WJVGRM2SN6;
+    "get-task-allow" = 1;
+}', teamID='WJVGRM2SN6', identifier='Com.WooSeob.MemoryMoment', executablePath='<DVTFilePath:0x60003f32d490:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/MemoryMoment'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "WJVGRM2SN6.Com.WooSeob.MemoryMoment";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = WJVGRM2SN6;
+    "get-task-allow" = 0;
+}
+2023-01-28 08:34:43 +0000  Entitlements for <IDEDistributionItem: 0x600057fd16e0; bundleID='Com.WooSeob.MemoryMoment', path='<DVTFilePath:0x60002f3ff8e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838127b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c47bd0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='{
+    "application-identifier" = "WJVGRM2SN6.Com.WooSeob.MemoryMoment";
+    "com.apple.developer.team-identifier" = WJVGRM2SN6;
+    "get-task-allow" = 1;
+}', teamID='WJVGRM2SN6', identifier='Com.WooSeob.MemoryMoment', executablePath='<DVTFilePath:0x60003f32d490:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/MemoryMoment'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "WJVGRM2SN6.Com.WooSeob.MemoryMoment";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = WJVGRM2SN6;
+    "get-task-allow" = 0;
+}
+2023-01-28 08:34:43 +0000  Writing entitlements for <IDEDistributionItem: 0x600057fd16e0; bundleID='Com.WooSeob.MemoryMoment', path='<DVTFilePath:0x60002f3ff8e0:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000838127b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600016c442c0; name='Apple Development: WOOSEOB LIM (JG39A564C7)', hash='3BF0B86D94FAF6906D723558BA39BB5298385FFF', serialNumber='70F10AF1285C6A51706E532DB3F3BB15', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-01-26 09:04:28 +0000''>', entitlements='{
+    "application-identifier" = "WJVGRM2SN6.Com.WooSeob.MemoryMoment";
+    "com.apple.developer.team-identifier" = WJVGRM2SN6;
+    "get-task-allow" = 1;
+}', teamID='WJVGRM2SN6', identifier='Com.WooSeob.MemoryMoment', executablePath='<DVTFilePath:0x60003f32d490:'/Users/wooseob/Library/Developer/Xcode/Archives/2023-01-28/MemoryMoment 2023-01-28 5.34 PM.xcarchive/Products/Applications/MemoryMoment.app/MemoryMoment'>', hardenedRuntime='0'>'> to: /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~8wkNG4
+2023-01-28 08:34:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '06E7350EE8D34D6B3528AEC7DD2BA5091B412057' '--entitlements' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/entitlements~~~8wkNG4' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app'
+2023-01-28 08:34:43 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app: replacing existing signature
+2023-01-28 08:34:43 +0000  /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app: signed app bundle with Mach-O thin (arm64) [Com.WooSeob.MemoryMoment]
+2023-01-28 08:34:43 +0000  /usr/bin/codesign exited with 0
+2023-01-28 08:34:43 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-01-28 08:34:43 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-01-28 08:34:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Symbols' '--link-dest' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root'
+2023-01-28 08:34:43 +0000  building file list ... 
+2023-01-28 08:34:43 +0000   0 files...2023-01-28 08:34:43 +0000  9 files to consider
+2023-01-28 08:34:43 +0000  Symbols/
+2023-01-28 08:34:43 +0000  
+2023-01-28 08:34:43 +0000  sent 508 bytes  received 26 bytes  1.04K bytes/sec
+total size is 3.46M  speedup is 6792.84
+2023-01-28 08:34:43 +0000  /usr/bin/rsync exited with 0
+2023-01-28 08:34:43 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root' '/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Packages/MemoryMoment.ipa'
+2023-01-28 08:34:43 +0000  >>> Copying /var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root 
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  11083 bytes for ./Payload/MemoryMoment.app/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Maplestory OTF Light.otf ... 
+2023-01-28 08:34:43 +0000  676916 bytes for ./Payload/MemoryMoment.app/Maplestory OTF Light.otf
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/MemoryMoment.momd/VersionInfo.plist ... 
+2023-01-28 08:34:43 +0000  199 bytes for ./Payload/MemoryMoment.app/MemoryMoment.momd/VersionInfo.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/MemoryMoment.momd/MemoryMoment.mom ... 
+2023-01-28 08:34:43 +0000  1771 bytes for ./Payload/MemoryMoment.app/MemoryMoment.momd/MemoryMoment.mom
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/JalnanOTF.otf ... 
+2023-01-28 08:34:43 +0000  700060 bytes for ./Payload/MemoryMoment.app/JalnanOTF.otf
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/AppIcon60x60@2x.png ... 
+2023-01-28 08:34:43 +0000  4742 bytes for ./Payload/MemoryMoment.app/AppIcon60x60@2x.png
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-01-28 08:34:43 +0000  2248 bytes for ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-01-28 08:34:43 +0000  1014 bytes for ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-01-28 08:34:43 +0000  258 bytes for ./Payload/MemoryMoment.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Assets.car ... 
+2023-01-28 08:34:43 +0000  126480 bytes for ./Payload/MemoryMoment.app/Assets.car
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/AppIcon76x76@2x~ipad.png ... 
+2023-01-28 08:34:43 +0000  5850 bytes for ./Payload/MemoryMoment.app/AppIcon76x76@2x~ipad.png
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/KOTRA HOPE.otf ... 
+2023-01-28 08:34:43 +0000  3078172 bytes for ./Payload/MemoryMoment.app/KOTRA HOPE.otf
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/MemoryMoment ... 
+2023-01-28 08:34:43 +0000  260880 bytes for ./Payload/MemoryMoment.app/MemoryMoment
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/Then.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/Then.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/Then.framework/Then ... 
+2023-01-28 08:34:43 +0000  90384 bytes for ./Payload/MemoryMoment.app/Frameworks/Then.framework/Then
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/Then.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  805 bytes for ./Payload/MemoryMoment.app/Frameworks/Then.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay ... 
+2023-01-28 08:34:43 +0000  109760 bytes for ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/RxRelay
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  811 bytes for ./Payload/MemoryMoment.app/Frameworks/RxRelay.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar ... 
+2023-01-28 08:34:43 +0000  496752 bytes for ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/FSCalendar
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  817 bytes for ./Payload/MemoryMoment.app/Frameworks/FSCalendar.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture ... 
+2023-01-28 08:34:43 +0000  304320 bytes for ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/RxGesture
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  815 bytes for ./Payload/MemoryMoment.app/Frameworks/RxGesture.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit ... 
+2023-01-28 08:34:43 +0000  399840 bytes for ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/SnapKit
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  812 bytes for ./Payload/MemoryMoment.app/Frameworks/SnapKit.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa ... 
+2023-01-28 08:34:43 +0000  1843856 bytes for ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/RxCocoa
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/Info.plist ... 
+2023-01-28 08:34:43 +0000  811 bytes for ./Payload/MemoryMoment.app/Frameworks/RxCocoa.framework/Info.plist
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2023-01-28 08:34:43 +0000  1798 bytes for ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift ... 
+2023-01-28 08:34:43 +0000  2700784 bytes for ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/RxSwift
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/Info.plist ... 
+811 bytes for ./Payload/MemoryMoment.app/Frameworks/RxSwift.framework/Info.plist
+copying file ./Payload/MemoryMoment.app/LeeSeoyun.otf ... 
+2023-01-28 08:34:43 +0000  676056 bytes for ./Payload/MemoryMoment.app/LeeSeoyun.otf
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/embedded.mobileprovision ... 
+2023-01-28 08:34:43 +0000  16455 bytes for ./Payload/MemoryMoment.app/embedded.mobileprovision
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/KyoboHandwriting2021sjy.otf ... 
+2023-01-28 08:34:43 +0000  4767332 bytes for ./Payload/MemoryMoment.app/KyoboHandwriting2021sjy.otf
+2023-01-28 08:34:43 +0000  copying file ./Payload/MemoryMoment.app/Info.plist ... 
+2023-01-28 08:34:43 +0000  1830 bytes for ./Payload/MemoryMoment.app/Info.plist
+copying file ./Payload/MemoryMoment.app/PkgInfo ... 
+2023-01-28 08:34:43 +0000  8 bytes for ./Payload/MemoryMoment.app/PkgInfo
+2023-01-28 08:34:43 +0000  copying file ./Symbols/1B897EF3-A375-399C-BEEF-EE18DE2B22FF.symbols ... 
+2023-01-28 08:34:43 +0000  20900 bytes for ./Symbols/1B897EF3-A375-399C-BEEF-EE18DE2B22FF.symbols
+2023-01-28 08:34:43 +0000  copying file ./Symbols/A04C5E44-8560-3483-ABCE-1819BFB87009.symbols ... 
+2023-01-28 08:34:43 +0000  13964 bytes for ./Symbols/A04C5E44-8560-3483-ABCE-1819BFB87009.symbols
+2023-01-28 08:34:43 +0000  copying file ./Symbols/077295B3-25DE-38BC-B807-55694B9AE35C.symbols ... 
+2023-01-28 08:34:43 +0000  277996 bytes for ./Symbols/077295B3-25DE-38BC-B807-55694B9AE35C.symbols
+2023-01-28 08:34:43 +0000  copying file ./Symbols/436D55B1-CF53-3538-BD32-2F51FC5AA199.symbols ... 
+2023-01-28 08:34:43 +0000  148268 bytes for ./Symbols/436D55B1-CF53-3538-BD32-2F51FC5AA199.symbols
+2023-01-28 08:34:43 +0000  copying file ./Symbols/5FF630DF-CE92-32F3-9813-79E7EE1C2A4B.symbols ... 
+2023-01-28 08:34:43 +0000  1044244 bytes for ./Symbols/5FF630DF-CE92-32F3-9813-79E7EE1C2A4B.symbols
+2023-01-28 08:34:43 +0000  copying file ./Symbols/ADF12504-35B3-3B86-A2A0-941B0BDD4E2F.symbols ... 
+2023-01-28 08:34:44 +0000  239700 bytes for ./Symbols/ADF12504-35B3-3B86-A2A0-941B0BDD4E2F.symbols
+2023-01-28 08:34:44 +0000  copying file ./Symbols/89353329-8974-37F7-B198-CA7379E0A90B.symbols ... 
+2023-01-28 08:34:44 +0000  1621916 bytes for ./Symbols/89353329-8974-37F7-B198-CA7379E0A90B.symbols
+2023-01-28 08:34:44 +0000  copying file ./Symbols/71739056-ADC5-33B8-845F-58B3332AE89C.symbols ... 
+2023-01-28 08:34:44 +0000  260388 bytes for ./Symbols/71739056-ADC5-33B8-845F-58B3332AE89C.symbols
+2023-01-28 08:34:44 +0000  /usr/bin/ditto exited with 0
+2023-01-28 08:34:44 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-01-28 08:34:44 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-01-28 08:34:44 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x6000430802a0:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/FSCalendar.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x6000430804d0:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxRelay.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x600043080460:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxGesture.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x6000430805b0:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxSwift.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x600043080380:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/SnapKit.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x6000430803f0:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/RxCocoa.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x600043080620:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app/Frameworks/Then.framework'>
+2023-01-28 08:34:44 +0000  IDEDistributionItem init <DVTFilePath:0x60003f2f8070:'/var/folders/jt/w72cfx_5373f6mcjryf39w800000gn/T/XcodeDistPipeline.~~~yWzp2c/Root/Payload/MemoryMoment.app'>
+2023-01-28 08:34:44 +0000  Processing step: IDEDistributionCreateManifestStep
+2023-01-28 08:34:44 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

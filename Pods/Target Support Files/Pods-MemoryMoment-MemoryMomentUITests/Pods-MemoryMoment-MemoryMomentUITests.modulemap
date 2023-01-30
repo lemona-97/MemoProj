@@ -1,0 +1,6 @@
+framework module Pods_MemoryMoment_MemoryMomentUITests {
+  umbrella header "Pods-MemoryMoment-MemoryMomentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
