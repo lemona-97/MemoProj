@@ -40,9 +40,9 @@ class MemoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
+        resetFont()
         memoTableView.reloadData()
         fetchCoreData()
-        resetFont()
     }
     
     private func checkFirst() {
@@ -150,9 +150,14 @@ extension MemoViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "MemoTableViewCell", for: indexPath) as? MemoTableViewCell else { return UITableViewCell() }
         let record = self.fetchedMemoDataArray[indexPath.row]
+        cell.cellSubjectLabel.font = font.mediumFont
         cell.cellSubjectLabel.text = record.value(forKey: "memoSubject") as? String
+        
         cell.cellDateLabel.text = String(((record.value(forKey: "memoDate") as? String)?.components(separatedBy: " ")[0])!)
+        cell.cellDateLabel.font = font.mediumFont
+        
         cell.cellContent.text = record.value(forKey: "memoContent") as? String
+        cell.cellContent.font = font.smallFont
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
