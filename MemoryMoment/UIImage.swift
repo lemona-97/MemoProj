@@ -16,6 +16,8 @@ extension UIImage {
         draw(in: target, blendMode: .normal, alpha: 1)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
+        print(newImage?.pngData() as Any)
+        
         return newImage
     }
 }
