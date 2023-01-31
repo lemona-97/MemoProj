@@ -195,6 +195,7 @@ class DiaryViewController: UIViewController {
             print("Diary Count is \(fetchedDiaryData.count)")
             if fetchedDiaryData.count != 0 {
                 fetchedDiaryDataArray = fetchedDiaryData
+                markWrittenDay()
             }
         } catch {
             print(error.localizedDescription)
@@ -247,6 +248,9 @@ class DiaryViewController: UIViewController {
         diaryTextView.font = font.smallFont
         diaryTextViewStopBtn.titleLabel?.font = font.mediumFont
         diaryTextViewStartBtn.titleLabel?.font = font.mediumFont
+    }
+    private func markWrittenDay() {
+        
     }
 }
 
