@@ -195,6 +195,7 @@ class DiaryViewController: UIViewController {
             print("Diary Count is \(fetchedDiaryData.count)")
             if fetchedDiaryData.count != 0 {
                 fetchedDiaryDataArray = fetchedDiaryData
+                markWrittenDay()
             }
         } catch {
             print(error.localizedDescription)
@@ -248,6 +249,9 @@ class DiaryViewController: UIViewController {
         diaryTextViewStopBtn.titleLabel?.font = font.mediumFont
         diaryTextViewStartBtn.titleLabel?.font = font.mediumFont
     }
+    private func markWrittenDay() {
+        
+    }
 }
 
 extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
@@ -260,6 +264,7 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
             return nil
         }
     }
+    
     // 날짜 선택 시 콜백 메소드
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
         print(dateFormatter.string(from: date) + " 선택됨")
@@ -284,6 +289,17 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
         diaryImageView.image = UIImage()
         diaryImageView.isHidden = true
         diaryImageInsertBtn.isHidden = true
+    }
+    func calendar(_ calendar: FSCalendar, numberOfEventsFor date: Date) -> Int {
+        var diaryWrittenDate = [String]()
+        fetchedDiaryDataArray.forEach {
+            diaryWrittenDate.append($0.diaryDate!)
+        }
+        if diaryWrittenDate.contains(dateFormatter.string(from: date)) {
+            return 1
+        } else {
+            return 0
+        }
     }
 }
 
