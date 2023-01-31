@@ -12,7 +12,7 @@ class FontChangeViewController: UIViewController {
     private let sampleLabel = UILabel()
     private let sampleTextView = UITextView()
     private let fontListTableView = UITableView()
-    private let fontList = ["잘난체", "코트라 희망체", "교보손글씨2021성지영", "이서윤체", "메이플스토리체"]
+    private let fontList = ["잘난체", "코트라 희망체", "교보손글씨2021성지영", "이서윤체", "메이플스토리체", "조선100년체"]
     
     private let font = FontManager.getFont()
     
@@ -106,6 +106,8 @@ extension FontChangeViewController: UITableViewDelegate, UITableViewDataSource {
             cellfont = UIFont(name: "LeeSeoyun", size: 20)!
         case "메이플스토리체":
             cellfont = UIFont(name: "Maplestory OTF Light", size: 20)!
+        case "조선100년체":
+            cellfont = UIFont(name: "Chosun100years", size: 20)!
         default:
             cellfont = UIFont(name: "LeeSeoyun", size: 20)!
         }
@@ -143,11 +145,15 @@ extension FontChangeViewController: UITableViewDelegate, UITableViewDataSource {
             sampleLabel.font = UIFont(name: "Maplestory OTF Light", size: 15)
             sampleTextView.font = UIFont(name: "Maplestory OTF Light", size: 15)
             print("메이플스토리 체 설정")
+        case "조선100년체":
+            FontManager.setFont(font: Font.MapleStory)
+            sampleLabel.font = UIFont(name: "Chosun100years", size: 15)
+            sampleTextView.font = UIFont(name: "Chosun100years", size: 15)
         default:
             FontManager.setFont(font: Font.Leeseoyun)
             
         }
-        Thread.sleep(forTimeInterval: 1.5)
+        Thread.sleep(forTimeInterval: 1.0)
         self.presentAlert(title: "폰트 설정 완료")
     }
     
