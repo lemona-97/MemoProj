@@ -22,11 +22,14 @@ class DiaryViewController: UIViewController {
     //textview
     private let diaryTextView = UITextView()
     private let diaryTextViewPlaceHolder = "오늘을 기록해보세요!"
+    private let diaryImageView = UIImageView()
+    private let diaryTextViewStartBtn = UIButton()
+    private let diaryTextViewStopBtn = UIButton()
+    private let diaryImageInsertBtn = UIButton()
+    
     private var focusedDate = String()
     var diaryContext: NSManagedObjectContext!
     var fetchedDiaryDataArray = [DIARYDATA]()
-    private let diaryTextViewStartBtn = UIButton()
-    private let diaryTextViewStopBtn = UIButton()
     
     var font = FontManager.getFont()
 
@@ -85,11 +88,25 @@ class DiaryViewController: UIViewController {
             $0.isHidden = true
             $0.backgroundColor = .mainBackgroundColor
             $0.roundCorners(cornerRadius: 10, maskedCorners: [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner])
-
+        }
+        diaryImageView.do {
+            $0.layer.borderWidth = 3
+            $0.layer.borderColor = CGColor(red: 76, green: 100, blue: 46, alpha: 0.5)
+            $0.clipsToBounds = true
+            $0.contentMode = .scaleAspectFill
+            $0.isHidden = true
         }
         diaryTextViewStartBtn.do {
             $0.setTitleColor(.black, for: .normal)
             $0.setTitle("일기 쓰기", for: .normal)
+            $0.titleLabel?.font = font.smallFont
+            $0.backgroundColor = .mainBackgroundColor
+            $0.roundCorners(cornerRadius: 15, maskedCorners: [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner])
+            $0.isHidden = true
+        }
+        diaryImageInsertBtn.do {
+            $0.setTitleColor(.black, for: .normal)
+            $0.setTitle("사진 추가", for: .normal)
             $0.titleLabel?.font = font.smallFont
             $0.backgroundColor = .mainBackgroundColor
             $0.roundCorners(cornerRadius: 15, maskedCorners: [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner])
@@ -108,7 +125,9 @@ class DiaryViewController: UIViewController {
         self.view.addSubviews([topTitleView,
                                diaryCalendar,
                                diaryTextView,
+                               diaryImageView,
                                diaryTextViewStartBtn,
+                               diaryImageInsertBtn,
                                diaryTextViewStopBtn])
         topTitleView.addSubview(topTitleLabel)
     }
@@ -131,13 +150,25 @@ class DiaryViewController: UIViewController {
             make.trailing.equalToSuperview().offset(-20)
             make.height.equalTo(400)
         }
-        diaryTextView.snp.updateConstraints { make in
+        diaryTextView.snp.makeConstraints { make in
             make.top.equalTo(diaryCalendar.snp.bottom).offset(20)
-            make.trailing.equalToSuperview().offset(-110)
+            make.trailing.equalToSuperview().offset(-190) //원래 -110
             make.leading.equalToSuperview().offset(20)
             make.height.equalTo(80)
         }
+        diaryImageView.snp.makeConstraints { make in
+            make.top.equalTo(diaryCalendar.snp.bottom).offset(20)
+            make.trailing.equalToSuperview().offset(-100)
+            make.leading.equalTo(diaryTextView.snp.trailing).offset(10)
+            make.height.equalTo(80)
+        }
         diaryTextViewStartBtn.snp.makeConstraints { make in
+            make.width.equalTo(70)
+            make.trailing.equalToSuperview().offset(-20)
+            make.top.equalTo(diaryCalendar.snp.bottom).offset(20)
+            make.height.equalTo(30)
+        }
+        diaryImageInsertBtn.snp.makeConstraints { make in
             make.width.equalTo(70)
             make.trailing.equalToSuperview().offset(-20)
             make.top.equalTo(diaryCalendar.snp.bottom).offset(20)
@@ -173,8 +204,16 @@ class DiaryViewController: UIViewController {
     private func addTargetFunc() {
         diaryTextViewStartBtn.addTarget(self, action: #selector(startDiaryTextView), for: .touchUpInside)
         diaryTextViewStopBtn.addTarget(self, action: #selector(stopDiaryTextView), for: .touchUpInside)
+        diaryImageInsertBtn.addTarget(self, action: #selector(insertDiaryImage), for: .touchUpInside)
     }
-    
+    @objc
+    private func insertDiaryImage() {
+        print("눌리죠?")
+        let imagePicker = UIImagePickerController()
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+        self.present(imagePicker, animated: true)
+    }
     @objc
     private func startDiaryTextView(){
         diaryTextView.isHidden = false
@@ -182,18 +221,25 @@ class DiaryViewController: UIViewController {
             fetchedDiaryDataArray.forEach { data in
                 if data.diaryDate == focusedDate {
                     diaryTextView.text = data.diaryContent
+                    diaryImageView.image = data.diaryImage.map({ data in
+                        UIImage(data: data)!
+                    })
                     print("\(focusedDate) 일기 불러오기 성공!")
                     return
                 }
             }
         }
-        diaryTextViewStopBtn.isHidden = false
+        diaryImageView.isHidden = false // 사진
+        diaryImageInsertBtn.isHidden = false // 사진 추가 버튼
+        diaryTextViewStopBtn.isHidden = false // 일기 저장 버튼
         diaryTextViewStartBtn.isHidden = true
     }
     @objc
     private func stopDiaryTextView(){
         diaryTextView.isHidden = true
+        diaryImageView.isHidden = true
         diaryTextViewStopBtn.isHidden = true
+        diaryImageInsertBtn.isHidden = true
         view.endEditing(true)
     }
     private func resetFont() {
@@ -221,6 +267,7 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
         focusedDate = dateFormatter.string(from: date)
         diaryTextViewStartBtn.isHidden = false
         diaryTextView.textColor = .black
+        
 
     }
     // 날짜 선택 해제 시 콜백 메소드
@@ -234,6 +281,9 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
         print(dateFormatter.string(from: date) + " 해제됨")
         diaryTextView.text = diaryTextViewPlaceHolder
         diaryTextView.textColor = .lightGray
+        diaryImageView.image = UIImage()
+        diaryImageView.isHidden = true
+        diaryImageInsertBtn.isHidden = true
     }
 }
 
@@ -275,6 +325,7 @@ extension DiaryViewController: UITextViewDelegate {
         let oneOfDiary = NSManagedObject(entity: entity, insertInto: self.diaryContext)
         oneOfDiary.setValue(focusedDate, forKey: "diaryDate")
         oneOfDiary.setValue(diaryTextView.text, forKey: "diaryContent")
+        oneOfDiary.setValue(diaryImageView.image?.pngData(), forKey: "diaryImage")
         print("focused Date is : \(focusedDate)")
         do {
             try self.diaryContext.save()
@@ -282,5 +333,19 @@ extension DiaryViewController: UITextViewDelegate {
         } catch {
             print(error.localizedDescription)
         }
+    }
+}
+
+extension DiaryViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            
+            diaryImageView.image = pickedImage.resize(toTargetSize: CGSize(width: 80, height: 80))
+        }
+        
+        dismiss(animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
     }
 }

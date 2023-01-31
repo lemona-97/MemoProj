@@ -22,6 +22,7 @@ enum Font: Int {
     case Kyobo      // 교보손글씨2019
     case Leeseoyun  // 이서윤체
     case MapleStory
+    case Chosun100years
     /// 아이폰 작은 글씨(size: 12)
     var smallFont: UIFont {
         switch self {
@@ -35,6 +36,8 @@ enum Font: Int {
             return UIFont(name: "KyoboHandwriting2021sjy", size: FontSize.small.rawValue)!
         case .Leeseoyun:
             return UIFont(name: "LeeSeoyun", size: FontSize.small.rawValue)!
+        case .Chosun100years:
+            return UIFont(name: "Chosun100Years", size: FontSize.small.rawValue)!
         }
     }
     /// 아이폰 중간 글씨(size: 14)
@@ -50,6 +53,8 @@ enum Font: Int {
             return UIFont(name: "KyoboHandwriting2021sjy", size: FontSize.medium.rawValue)!
         case .Leeseoyun:
             return UIFont(name: "LeeSeoyun", size: FontSize.medium.rawValue)!
+        case .Chosun100years:
+            return UIFont(name: "Chosun100Years", size: FontSize.medium.rawValue)!
         }
     }
     /// 아이폰 큰 글씨(size: 16)
@@ -65,6 +70,8 @@ enum Font: Int {
             return UIFont(name: "KyoboHandwriting2021sjy", size: FontSize.large.rawValue)!
         case .Leeseoyun:
             return UIFont(name: "LeeSeoyun", size: FontSize.large.rawValue)!
+        case .Chosun100years:
+            return UIFont(name: "Chosun100years", size: FontSize.large.rawValue)!
         }
     }
     /// 제일큰 글씨(size: 30)
@@ -80,6 +87,8 @@ enum Font: Int {
             return UIFont(name: "KyoboHandwriting2021sjy", size: FontSize.extraLarge.rawValue)!
         case .Leeseoyun:
             return UIFont(name: "LeeSeoyun", size: FontSize.extraLarge.rawValue)!
+        case .Chosun100years:
+            return UIFont(name: "Chosun100years", size: FontSize.extraLarge.rawValue)!
         }
     }
 }
