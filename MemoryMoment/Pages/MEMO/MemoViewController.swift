@@ -12,18 +12,17 @@ import CoreData
 
 class MemoViewController: UIViewController {
 
-    private let topTitleView = UIView()
-    private let topTitleLabel = UILabel()
-    private let addMemoBtn = UIButton()
+    private let topTitleView : UIView = UIView()
+    private let topTitleLabel : UILabel = UILabel()
+    private let addMemoBtn : UIButton = UIButton()
     
-    let memoTableView = UITableView()
+    private let memoTableView : UITableView = UITableView()
     
-    var memoContainer: NSPersistentContainer!
-    var fetchedMemoDataArray = [MEMODATA]()
-    var memoTableViewCellCount = 1
-    var font = FontManager.getFont()
+    private var memoContainer: NSPersistentContainer!
+    private var fetchedMemoDataArray : [MEMODATA] = [MEMODATA]()
+    private var memoTableViewCellCount : Int = 1
+    private var font : Font = FontManager.getFont()
     
-    var sampleDate = Date()
     
     override func viewDidLoad() {
         super.viewDidLoad()

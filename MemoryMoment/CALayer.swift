@@ -12,7 +12,7 @@ extension CALayer {
     
     func addBorder(_ arr_edge: [UIRectEdge], color: UIColor, width: CGFloat) {
         for edge in arr_edge {
-            let border = CALayer()
+            let border : CALayer = CALayer()
             switch edge {
             case UIRectEdge.top:
                 border.frame = CGRect.init(x: 0, y: 0, width: frame.width, height: frame.height)

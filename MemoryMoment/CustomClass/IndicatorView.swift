@@ -8,13 +8,13 @@
 import UIKit
 
 open class IndicatorView {
-    static let shared = IndicatorView()
+    static let shared : IndicatorView = IndicatorView()
         
-    let containerView = UIView()
-    let activityIndicator = UIActivityIndicatorView()
+    let containerView : UIView = UIView()
+    let activityIndicator : UIActivityIndicatorView = UIActivityIndicatorView()
     
     open func show() {
-        let window = UIWindow(frame: UIScreen.main.bounds)
+        let window : UIWindow = UIWindow(frame: UIScreen.main.bounds)
         
         self.containerView.frame = window.frame
         self.containerView.center = window.center

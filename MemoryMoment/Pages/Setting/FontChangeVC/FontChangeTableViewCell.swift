@@ -9,7 +9,7 @@ import UIKit
 
 class FontChangeTableViewCell: UITableViewCell {
     
-    var fontName = UILabel()
+    let fontName : UILabel = UILabel()
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 
         super.init(style: .value1, reuseIdentifier: "FontChangeTableViewCell")

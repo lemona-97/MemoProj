@@ -9,9 +9,9 @@ import UIKit
 
 class OpenSourceTableViewCell: UITableViewCell {
 
-    var openSourceNameLabel = UILabel()
-    var openSourceURL = UILabel()
-    var openSourceLisence = UILabel()
+    var openSourceNameLabel : UILabel = UILabel()
+    var openSourceURL : UILabel = UILabel()
+    var openSourceLisence : UILabel = UILabel()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 

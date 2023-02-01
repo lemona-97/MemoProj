@@ -10,20 +10,20 @@ import UIKit
 class TabBarViewController: UITabBarController {
     static let objectRatio  = 4.0 / 7.0
 
-    let MemoIconDefault = UIImage(imageLiteralResourceName: "pencilDefault.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
-    let MemoIconSelected = UIImage(imageLiteralResourceName: "pencilSelected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
-    let DiaryIconDefault = UIImage(imageLiteralResourceName: "noteDefault.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
-    let DiaryIconSelected = UIImage(imageLiteralResourceName: "noteSelected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let MemoIconDefault : UIImage = UIImage(imageLiteralResourceName: "pencilDefault.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let MemoIconSelected : UIImage = UIImage(imageLiteralResourceName: "pencilSelected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let DiaryIconDefault : UIImage = UIImage(imageLiteralResourceName: "noteDefault.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let DiaryIconSelected : UIImage = UIImage(imageLiteralResourceName: "noteSelected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
    
-    let SettingIconDefault = UIImage(imageLiteralResourceName: "line3Default.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
-    let SettingIconSelected = UIImage(imageLiteralResourceName: "line3Selected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let SettingIconDefault : UIImage = UIImage(imageLiteralResourceName: "line3Default.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
+    let SettingIconSelected : UIImage = UIImage(imageLiteralResourceName: "line3Selected.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let firstTab = MemoViewController()
-        let secondTab = DiaryViewController()
-        let thirdTab = SettingViewController()
+        let firstTab : UIViewController = MemoViewController()
+        let secondTab : UIViewController = DiaryViewController()
+        let thirdTab : UIViewController = SettingViewController()
         
         firstTab.tabBarItem = UITabBarItem(title: "메모", image: self.MemoIconDefault, tag: 0)
         firstTab.tabBarItem.selectedImage = MemoIconSelected
@@ -34,7 +34,7 @@ class TabBarViewController: UITabBarController {
         thirdTab.tabBarItem = UITabBarItem(title: "설정", image: self.SettingIconDefault, tag: 2)
         thirdTab.tabBarItem.selectedImage = SettingIconSelected
         
-        let TabList = [firstTab, secondTab, thirdTab]
+        let TabList : [UIViewController] = [firstTab, secondTab, thirdTab]
         
         self.tabBar.backgroundColor = .mainBackgroundColor
         self.tabBar.tintColor = .black

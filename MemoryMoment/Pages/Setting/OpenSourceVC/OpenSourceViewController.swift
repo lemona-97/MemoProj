@@ -115,7 +115,7 @@ extension OpenSourceViewController: UITableViewDelegate, UITableViewDataSource {
         75
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let nextView = DetailLisenseViewController()
+        let nextView : DetailLisenseViewController = DetailLisenseViewController()
         var mainText = ""
         switch openSourceList[indexPath.row] {
         case "Then":
@@ -131,7 +131,6 @@ extension OpenSourceViewController: UITableViewDelegate, UITableViewDataSource {
         default:
             mainText = "오류발생"
         }
-        print("main text is : \(mainText)")
         nextView.openSourceDetail.text = mainText
         self.navigationController?.navigationBar.topItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .mainColor
