@@ -12,26 +12,26 @@ import CoreData
 class DiaryViewController: UIViewController {
     
     //view
-    private let topTitleView = UIView()
-    private let topTitleLabel = UILabel()
+    private let topTitleView  : UIView = UIView()
+    private let topTitleLabel : UILabel = UILabel()
     
     //calender
-    private let diaryCalendar = FSCalendar()
-    private let dateFormatter = DateFormatter()
+    private let diaryCalendar : FSCalendar = FSCalendar()
+    private let dateFormatter : DateFormatter = DateFormatter()
     
     //textview
-    private let diaryTextView = UITextView()
-    private let diaryTextViewPlaceHolder = "오늘을 기록해보세요!"
-    private let diaryImageView = UIImageView()
-    private let diaryTextViewStartBtn = UIButton()
-    private let diaryTextViewStopBtn = UIButton()
-    private let diaryImageInsertBtn = UIButton()
+    private let diaryTextView : UITextView = UITextView()
+    private let diaryTextViewPlaceHolder : String = "오늘을 기록해보세요!"
+    private let diaryImageView : UIImageView = UIImageView()
+    private let diaryTextViewStartBtn : UIButton = UIButton()
+    private let diaryTextViewStopBtn : UIButton = UIButton()
+    private let diaryImageInsertBtn : UIButton = UIButton()
     
-    private var focusedDate = String()
+    private var focusedDate : String = String()
     var diaryContext: NSManagedObjectContext!
-    var fetchedDiaryDataArray = [DIARYDATA]()
+    var fetchedDiaryDataArray : [DIARYDATA] = [DIARYDATA]()
     
-    var font = FontManager.getFont()
+    var font : Font = FontManager.getFont()
 
 
     override func viewDidLoad() {
@@ -210,7 +210,7 @@ class DiaryViewController: UIViewController {
     @objc
     private func insertDiaryImage() {
         print("눌리죠?")
-        let imagePicker = UIImagePickerController()
+        let imagePicker : UIImagePickerController = UIImagePickerController()
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
         self.present(imagePicker, animated: true)

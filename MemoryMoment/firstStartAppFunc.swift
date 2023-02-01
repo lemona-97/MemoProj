@@ -10,8 +10,8 @@ import CoreData
 import UIKit
 
 func checkAppFirstrunOrUpdateStatus(firstrun: () -> (), updated: () -> (), nothingChanged: () -> ()) {
-    let currentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
-    let versionOfLastRun = UserDefaults.standard.object(forKey: "VersionOfLastRun") as? String
+    let currentVersion : String? = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+    let versionOfLastRun : String? = UserDefaults.standard.object(forKey: "VersionOfLastRun") as? String
     // print(#function, currentVersion ?? "", versionOfLastRun ?? "")
     if versionOfLastRun == nil {
         // First start after installing the app
@@ -28,8 +28,8 @@ func checkAppFirstrunOrUpdateStatus(firstrun: () -> (), updated: () -> (), nothi
 }
 
 func firstCoreData(_ myContainer:  NSPersistentContainer) {
-    let date = Date()
-    let myDateFommatter = DateFormatter()
+    let date : Date = Date()
+    let myDateFommatter : DateFormatter = DateFormatter()
     myDateFommatter.dateFormat = "yyyy.MM.dd a hh시 mm분"
     myDateFommatter.locale = Locale(identifier: "ko_KR")
     

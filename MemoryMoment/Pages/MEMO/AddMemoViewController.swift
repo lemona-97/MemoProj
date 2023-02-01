@@ -11,14 +11,14 @@ import RxGesture
 import CoreData
 class AddMemoViewController: UIViewController {
     
-    private var disposeBag = DisposeBag()
-    private let memoTextView = UITextView()
-    private let memoCompletedBtn = UIButton()
+    private var disposeBag : DisposeBag = DisposeBag()
+    private let memoTextView : UITextView = UITextView()
+    private let memoCompletedBtn : UIButton = UIButton()
     
-    private let nowDate = Date()
-    private let myDateFommatter = DateFormatter()
+    private let nowDate : Date = Date()
+    private let myDateFommatter : DateFormatter = DateFormatter()
     var container: NSPersistentContainer!
-    var font = FontManager.getFont()
+    var font : Font = FontManager.getFont()
 
     override func viewDidLoad() {
         super.viewDidLoad()

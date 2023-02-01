@@ -15,14 +15,14 @@ class ModiMemoViewController: UIViewController {
     private var disposeBag = DisposeBag()
     
     //view
-    private let memoTextView = UITextView()
-    private let memoCompletedBtn = UIButton()
-    private let nowDate = Date()
-    private let myDateFommatter = DateFormatter()
-    private var font = FontManager.getFont()
+    private let memoTextView : UITextView = UITextView()
+    private let memoCompletedBtn : UIButton = UIButton()
+    private let nowDate : Date = Date()
+    private let myDateFommatter : DateFormatter = DateFormatter()
+    private var font : Font = FontManager.getFont()
 
     //fetch
-    var item = MEMODATA()
+    var item : MEMODATA = MEMODATA()
     var container: NSPersistentContainer!
     let context =  (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var objectId : NSManagedObjectID!

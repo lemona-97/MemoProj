@@ -9,10 +9,10 @@ import UIKit
 
 class MemoTableViewCell: UITableViewCell {
 
-    let cellSubjectLabel = UILabel()
-    let cellDateLabel = UILabel()
-    let cellContent = UILabel()
-    var font = FontManager.getFont()
+    let cellSubjectLabel : UILabel = UILabel()
+    let cellDateLabel : UILabel = UILabel()
+    let cellContent : UILabel = UILabel()
+    var font : Font = FontManager.getFont()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 

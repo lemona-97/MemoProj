@@ -109,7 +109,6 @@
 		FA798A4429824E1C003FAD3F /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		FA798A4629825B6F003FAD3F /* LisenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisenseManager.swift; sourceTree = "<group>"; };
 		FA798A4C29826223003FAD3F /* DetailLisenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLisenseViewController.swift; sourceTree = "<group>"; };
-		FA798A4E2988BADE003FAD3F /* Chosun100years.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chosun100years.otf; sourceTree = "<group>"; };
 		FA93494B297BAE4E00B77A41 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		FA93494D297BB2EA00B77A41 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		FA93494F297BC1F200B77A41 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
@@ -246,7 +245,6 @@
 				FA798A3329811D59003FAD3F /* KyoboHandwriting2021sjy.otf */,
 				FA798A2D29811D59003FAD3F /* LeeSeoyun.otf */,
 				FA798A3129811D59003FAD3F /* Maplestory OTF Light.otf */,
-				FA798A4E2988BADE003FAD3F /* Chosun100years.otf */,
 				FA798A3B2981267B003FAD3F /* FontManager.swift */,
 			);
 			path = Font;

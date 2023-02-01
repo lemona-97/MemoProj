@@ -10,17 +10,17 @@ import UIKit
 class SettingViewController: UIViewController {
     
     //view
-    private let topTitleView = UIView()
-    private let topTitleLabel = UILabel()
+    private let topTitleView : UIView = UIView()
+    private let topTitleLabel : UILabel = UILabel()
     
     //미구현
 //    private let secureBtn = UIButton()
-    private let fontSettingBtn = UIButton()
+    private let fontSettingBtn : UIButton = UIButton()
 //    private let noticeBtn = UIButton()
 //    private let bugReportBtn = UIButton()
-    private let openSourceCheckBtn = UIButton()
+    private let openSourceCheckBtn : UIButton = UIButton()
     
-    var font = FontManager.getFont()
+    var font : Font = FontManager.getFont()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -152,7 +152,7 @@ class SettingViewController: UIViewController {
 //    }
     @objc
     func openSourceVC() {
-        let nextView = OpenSourceViewController()
+        let nextView : UIViewController = OpenSourceViewController()
         self.navigationController?.navigationBar.topItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .white
         self.navigationController?.pushViewController(nextView, animated: true)

@@ -9,7 +9,7 @@ import UIKit
 
 class DetailLisenseViewController: UIViewController {
     
-    var openSourceDetail = UITextView()
+    var openSourceDetail : UITextView = UITextView()
     
     override func viewDidLoad() {
         super.viewDidLoad()

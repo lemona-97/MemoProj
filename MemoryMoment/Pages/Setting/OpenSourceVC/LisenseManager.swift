@@ -8,7 +8,7 @@
 import Foundation
 
 struct Lisense {
-    let Then = """
+    let Then : String = """
     The MIT License (MIT)
     Copyright (c) 2015 Suyeol Jeon (xoul.kr)
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -29,7 +29,7 @@ struct Lisense {
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
     """
-    let SnapKit = """
+    let SnapKit : String = """
     Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -50,7 +50,7 @@ struct Lisense {
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
     """
-    let RxGesture = """
+    let RxGesture : String = """
     Copyright (c) RxSwiftCommunity
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -71,7 +71,7 @@ struct Lisense {
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
     """
-    let FSCalendar = """
+    let FSCalendar : String = """
     Copyright (c) 2013-2016 FSCalendar (https://github.com/WenchaoD/FSCalendar)
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -92,7 +92,7 @@ struct Lisense {
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
     """
-    let CocoaPods = """
+    let CocoaPods : String = """
     This project is licensed under the MIT license.
     
     Copyright (c) 2011 Eloy Durán <eloy.de.enige@gmail.com>,
