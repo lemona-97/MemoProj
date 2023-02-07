@@ -50,6 +50,7 @@ class MemoViewController: UIViewController {
         checkAppFirstrunOrUpdateStatus {
             print("앱 설치 후 최초 실행할때만 실행됨")
             firstCoreData(memoContainer)
+            FontManager.setFont(font: Font.Leeseoyun)
         } updated: {
             print("버전 변경시마다 실행됨")
         } nothingChanged: {
@@ -61,8 +62,6 @@ class MemoViewController: UIViewController {
         topTitleView.do {
             $0.backgroundColor = .mainBackgroundColor
             $0.layer.addBorder([.bottom], color: .gray, width: 1)
-            $0.layer.cornerRadius = 18
-            $0.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMaxXMaxYCorner, .layerMinXMaxYCorner)
             $0.layer.addShadow(location: .bottom)
         }
         topTitleLabel.do {
@@ -122,6 +121,7 @@ class MemoViewController: UIViewController {
         let nextView = AddMemoViewController()
         self.navigationController?.navigationBar.topItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .white
+        self.navigationController?.navigationBar.barTintColor = .mainColor
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     private func fetchCoreData() {

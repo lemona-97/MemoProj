@@ -17,6 +17,7 @@ enum FontSize: CGFloat {
 }
 
 enum Font: Int {
+    case Basic
     case JalnanOTF
     case KOTRA
     case Kyobo      // 교보손글씨2019
@@ -25,6 +26,8 @@ enum Font: Int {
     /// 아이폰 작은 글씨(size: 12)
     var smallFont: UIFont {
         switch self {
+        case .Basic:
+            return .systemFont(ofSize: FontSize.small.rawValue)
         case .JalnanOTF:
             return UIFont(name: "JalnanOTF", size: FontSize.small.rawValue)!
         case .KOTRA:
@@ -40,6 +43,8 @@ enum Font: Int {
     /// 아이폰 중간 글씨(size: 14)
     var mediumFont: UIFont {
         switch self {
+        case .Basic:
+            return .systemFont(ofSize: FontSize.medium.rawValue)
         case .JalnanOTF:
             return UIFont(name: "JalnanOTF", size: FontSize.medium.rawValue)!
         case .KOTRA:
@@ -55,6 +60,8 @@ enum Font: Int {
     /// 아이폰 큰 글씨(size: 16)
     var largeFont: UIFont {
         switch self {
+        case .Basic:
+            return .systemFont(ofSize: FontSize.large.rawValue)
         case .JalnanOTF:
             return UIFont(name: "JalnanOTF", size: FontSize.large.rawValue)!
         case .KOTRA:
@@ -70,6 +77,8 @@ enum Font: Int {
     /// 제일큰 글씨(size: 30)
     var extraLargeFont: UIFont {
         switch self {
+        case .Basic:
+            return .systemFont(ofSize: FontSize.extraLarge.rawValue)
         case .JalnanOTF:
             return UIFont(name: "JalnanOTF", size: FontSize.extraLarge.rawValue)!
         case .KOTRA:
@@ -93,7 +102,7 @@ class FontManager {
         } else {
             // 저장된 폰트가 없으면 기본 폰트로
             print("기본 폰트 설정")
-            return .Leeseoyun
+            return .Basic
         }
     }
     /// 폰트 저장하기

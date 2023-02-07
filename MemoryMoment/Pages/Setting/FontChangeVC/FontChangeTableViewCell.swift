@@ -23,6 +23,7 @@ class FontChangeTableViewCell: UITableViewCell {
         self.contentView.backgroundColor = .mainBackgroundColor
         fontName.do {
             $0.font = .systemFont(ofSize: 15)
+            $0.textColor = .black
             $0.backgroundColor = .mainBackgroundColor
         }
     }

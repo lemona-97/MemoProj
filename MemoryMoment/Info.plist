@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>HumanBumSeok.otf</string>
-		<string>DungGeunMo.otf</string>
 		<string>JalnanOTF.otf</string>
 		<string>KOTRA HOPE.otf</string>
 		<string>KyoboHandwriting2021sjy.otf</string>
@@ -29,5 +31,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

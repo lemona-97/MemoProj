@@ -12,7 +12,7 @@ class FontChangeViewController: UIViewController {
     private let sampleLabel = UILabel()
     private let sampleTextView = UITextView()
     private let fontListTableView = UITableView()
-    private let fontList = ["잘난체", "코트라 희망체", "교보손글씨2021성지영", "이서윤체", "메이플스토리체"]
+    private let fontList = ["기본폰트", "잘난체", "코트라 희망체", "교보손글씨2021성지영", "이서윤체", "메이플스토리체"]
     
     private let font = FontManager.getFont()
     
@@ -34,11 +34,13 @@ class FontChangeViewController: UIViewController {
 
         sampleLabel.do {
             $0.text = "글꼴 예시"
+            $0.textColor = .black
             $0.font = font.mediumFont
             $0.textAlignment = .center
         }
         sampleTextView.do {
             $0.text = "아무 글자나 입력해보세요!"
+            $0.textColor = .black
             $0.font = font.mediumFont
             $0.textAlignment = .center
             $0.backgroundColor = .mainBackgroundColor
@@ -96,6 +98,8 @@ extension FontChangeViewController: UITableViewDelegate, UITableViewDataSource {
         cell.fontName.text = fontList[indexPath.row]
         var cellfont = UIFont()
         switch fontList[indexPath.row] {
+        case "기본폰트":
+            cellfont = .systemFont(ofSize: 20)
         case "잘난체":
             cellfont = UIFont(name: "JalnanOTF", size: 20)!
         case "코트라 희망체":
@@ -117,6 +121,11 @@ extension FontChangeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch fontList[indexPath.row] {
+        case "기본폰트":
+            FontManager.setFont(font: .Basic)
+            sampleLabel.font = .systemFont(ofSize: 15)
+            sampleTextView.font = .systemFont(ofSize: 15)
+            print("기본 폰트 설정")
         case "잘난체":
             FontManager.setFont(font: Font.JalnanOTF)
             sampleLabel.font =  UIFont(name: "JalnanOTF", size: 15)
@@ -145,7 +154,6 @@ extension FontChangeViewController: UITableViewDelegate, UITableViewDataSource {
             print("메이플스토리 체 설정")
         default:
             FontManager.setFont(font: Font.Leeseoyun)
-            
         }
         Thread.sleep(forTimeInterval: 1.0)
         self.presentAlert(title: "폰트 설정 완료")

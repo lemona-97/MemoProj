@@ -44,8 +44,6 @@ class SettingViewController: UIViewController {
         topTitleView.do {
             $0.backgroundColor = .mainBackgroundColor
             $0.layer.addBorder([.bottom], color: .gray, width: 1)
-            $0.layer.cornerRadius = 18
-            $0.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMaxXMaxYCorner, .layerMinXMaxYCorner)
             $0.layer.addShadow(location: .bottom)
         }
         topTitleLabel.do {

@@ -26,7 +26,6 @@ class OpenSourceViewController: UIViewController {
                                      "MIT License"]
     
     //view
-    private let topTitleView = UIView()
     private let topTitleLabel = UILabel()
    
     private let openSourceTableView = UITableView()
@@ -45,13 +44,6 @@ class OpenSourceViewController: UIViewController {
    
     private func setAttribute() {
         self.view.backgroundColor = .mainColor
-        topTitleView.do {
-            $0.backgroundColor = .mainBackgroundColor
-            $0.layer.addBorder([.bottom], color: .gray, width: 1)
-            $0.layer.cornerRadius = 18
-            $0.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMaxXMaxYCorner, .layerMinXMaxYCorner)
-            $0.layer.addShadow(location: .bottom)
-        }
         topTitleLabel.do {
             $0.text = "오픈 소스 정보"
             $0.font = font.extraLargeFont
@@ -65,24 +57,17 @@ class OpenSourceViewController: UIViewController {
         
     }
     private func addView() {
-        self.view.addSubviews([topTitleView, openSourceTableView])
-        topTitleView.addSubview(topTitleLabel)
+        self.view.addSubviews([topTitleLabel, openSourceTableView])
     }
     private func setLayout() {
-        topTitleView.snp.makeConstraints { make in
-            make.height.equalTo(123)
-            make.leading.trailing.equalToSuperview()
-            make.top.equalToSuperview()
-        }
         topTitleLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.centerY.equalToSuperview().offset(20)
-            make.height.equalTo(70)
-            make.leading.equalToSuperview().offset(30)
-            make.trailing.equalToSuperview().offset(-30)
+            make.top.equalToSuperview().offset(100)
+            make.trailing.equalToSuperview().offset(-20)
+            make.leading.equalToSuperview().offset(20)
         }
         openSourceTableView.snp.makeConstraints { make in
-            make.top.equalTo(topTitleView.snp.bottom).offset(20)
+            make.top.equalTo(topTitleLabel.snp.bottom).offset(30)
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)
             make.bottom.equalToSuperview().offset(20)

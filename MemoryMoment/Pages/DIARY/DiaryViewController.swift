@@ -30,7 +30,7 @@ class DiaryViewController: UIViewController {
     private var focusedDate : String = String()
     var diaryContext: NSManagedObjectContext!
     var fetchedDiaryDataArray : [DIARYDATA] = [DIARYDATA]()
-    
+    var diaryWrittenDate : Set = Set<String>()
     var font : Font = FontManager.getFont()
 
 
@@ -61,8 +61,6 @@ class DiaryViewController: UIViewController {
         topTitleView.do {
             $0.backgroundColor = .mainBackgroundColor
             $0.layer.addBorder([.bottom], color: .gray, width: 1)
-            $0.layer.cornerRadius = 18
-            $0.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMaxXMaxYCorner, .layerMinXMaxYCorner)
             $0.layer.addShadow(location: .bottom)
         }
         topTitleLabel.do {
@@ -77,6 +75,18 @@ class DiaryViewController: UIViewController {
             $0.appearance.todayColor = .black
             $0.appearance.titleTodayColor = .yellow
             $0.roundCorners(cornerRadius: 10, maskedCorners: [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner])
+            $0.locale = Locale(identifier: "Ko_KR")
+            $0.appearance.headerDateFormat = "YYYY년 MM월"
+            $0.appearance.headerMinimumDissolvedAlpha = 0.0
+            $0.appearance.headerTitleColor = UIColor(hex: 0x345545)
+            $0.appearance.weekdayTextColor = UIColor(hex: 0x345545)
+            $0.calendarWeekdayView.weekdayLabels[0].text = "일"
+            $0.calendarWeekdayView.weekdayLabels[1].text = "월"
+            $0.calendarWeekdayView.weekdayLabels[2].text = "화"
+            $0.calendarWeekdayView.weekdayLabels[3].text = "수"
+            $0.calendarWeekdayView.weekdayLabels[4].text = "목"
+            $0.calendarWeekdayView.weekdayLabels[5].text = "금"
+            $0.calendarWeekdayView.weekdayLabels[6].text = "토"
         }
         dateFormatter.do {
             $0.dateFormat = "yyyy-MM-dd"
@@ -85,6 +95,7 @@ class DiaryViewController: UIViewController {
             $0.textContainerInset = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
             $0.text = diaryTextViewPlaceHolder
             $0.font = font.smallFont
+            $0.textColor = .black
             $0.isHidden = true
             $0.backgroundColor = .mainBackgroundColor
             $0.roundCorners(cornerRadius: 10, maskedCorners: [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner])
@@ -241,13 +252,17 @@ class DiaryViewController: UIViewController {
         diaryImageView.isHidden = true
         diaryTextViewStopBtn.isHidden = true
         diaryImageInsertBtn.isHidden = true
+        diaryWrittenDate.update(with: focusedDate)
+        
         view.endEditing(true)
+        self.presentAlert(title: "일기 저장 완료")
     }
     private func resetFont() {
         topTitleLabel.font = font.extraLargeFont
         diaryTextView.font = font.smallFont
-        diaryTextViewStopBtn.titleLabel?.font = font.mediumFont
-        diaryTextViewStartBtn.titleLabel?.font = font.mediumFont
+        diaryImageInsertBtn.titleLabel?.font = font.smallFont
+        diaryTextViewStopBtn.titleLabel?.font = font.smallFont
+        diaryTextViewStartBtn.titleLabel?.font = font.smallFont
     }
     private func markWrittenDay() {
         
@@ -270,8 +285,29 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
         print(dateFormatter.string(from: date) + " 선택됨")
         fetchCoreData()
         focusedDate = dateFormatter.string(from: date)
-        diaryTextViewStartBtn.isHidden = false
-        diaryTextView.textColor = .black
+        print(diaryWrittenDate)
+        if diaryWrittenDate.contains(focusedDate) {
+            diaryImageView.isHidden = false
+            diaryTextView.isHidden = false
+            diaryImageInsertBtn.isHidden = false
+            diaryTextViewStopBtn.isHidden = false
+            diaryTextView.isHidden = false
+            if fetchedDiaryDataArray.count != 0 {
+                fetchedDiaryDataArray.forEach { data in
+                    if data.diaryDate == focusedDate {
+                        diaryTextView.text = data.diaryContent
+                        diaryImageView.image = data.diaryImage.map({ data in
+                            UIImage(data: data)!
+                        })
+                        print("\(focusedDate) 일기 불러오기 성공!")
+                        return
+                    }
+                }
+            }
+        } else {
+            diaryTextViewStartBtn.isHidden = false
+            diaryTextView.textColor = .black
+        }
         
 
     }
@@ -285,15 +321,14 @@ extension DiaryViewController : FSCalendarDelegate, FSCalendarDataSource, FSCale
         }
         print(dateFormatter.string(from: date) + " 해제됨")
         diaryTextView.text = diaryTextViewPlaceHolder
-        diaryTextView.textColor = .lightGray
         diaryImageView.image = UIImage()
         diaryImageView.isHidden = true
         diaryImageInsertBtn.isHidden = true
     }
     func calendar(_ calendar: FSCalendar, numberOfEventsFor date: Date) -> Int {
-        var diaryWrittenDate = [String]()
+        
         fetchedDiaryDataArray.forEach {
-            diaryWrittenDate.append($0.diaryDate!)
+            diaryWrittenDate.update(with: $0.diaryDate!)
         }
         if diaryWrittenDate.contains(dateFormatter.string(from: date)) {
             return 1
@@ -315,7 +350,6 @@ extension DiaryViewController: UITextViewDelegate {
     func textViewDidEndEditing(_ textView: UITextView) {
         if textView.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             textView.text = diaryTextViewPlaceHolder
-            textView.textColor = .lightGray
         } else {
             var wannaDeleteIndex = -1
             if fetchedDiaryDataArray.count > 0 {

@@ -24,16 +24,19 @@ class OpenSourceTableViewCell: UITableViewCell {
         self.contentView.backgroundColor = .mainColor
         openSourceNameLabel.do {
             $0.text = "오픈 소스 이름"
+            $0.textColor = .black
             $0.font = .systemFont(ofSize: 15, weight: .bold)
         }
         openSourceURL.do {
             $0.font = .systemFont(ofSize: 12)
+            
             $0.text = "URL 나타날 곳"
             $0.textColor = .black
         }
 
         openSourceLisence.do {
             $0.text = "라이센스 나타날 곳"
+            $0.textColor = .black
             $0.font = .systemFont(ofSize: 12, weight: .bold)
         }
     }

@@ -26,6 +26,7 @@ class DetailLisenseViewController: UIViewController {
             $0.font = .systemFont(ofSize: 11)
             $0.textColor = .black
             $0.backgroundColor = .clear
+            $0.isEditable = false
         }
     }
     private func addView() {

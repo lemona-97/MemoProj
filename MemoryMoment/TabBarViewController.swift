@@ -39,7 +39,6 @@ class TabBarViewController: UITabBarController {
         self.tabBar.backgroundColor = .mainBackgroundColor
         self.tabBar.tintColor = .black
         self.tabBar.unselectedItemTintColor = .gray
-        self.tabBar.roundCorners(cornerRadius: 26, maskedCorners: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
         
         TabList.forEach {
             $0.tabBarItem.imageInsets.top = 5
