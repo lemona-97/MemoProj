@@ -18,8 +18,17 @@ class MemoViewController: UIViewController {
     
     private let memoTableView : UITableView = UITableView()
     
-    private var memoContainer: NSPersistentContainer!
-    private var fetchedMemoDataArray : [MEMODATA] = [MEMODATA]()
+    private(set) var memoContainer: NSPersistentContainer!
+    private lazy var fetchedMemoDataArray: [MEMODATA] = {
+        do {
+            let fetchedMemoData = try self.memoContainer.viewContext.fetch(MEMODATA.fetchRequest()) as [MEMODATA]
+            return fetchedMemoData
+        } catch {
+            print(error.localizedDescription)
+            return []
+        }
+    }()
+
     private var memoTableViewCellCount : Int = 1
     private var font : Font = FontManager.getFont()
     
@@ -45,8 +54,11 @@ class MemoViewController: UIViewController {
     }
     
     private func checkFirst() {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
         memoContainer = appDelegate.persistentContainer
+            
         checkAppFirstrunOrUpdateStatus {
             print("앱 설치 후 최초 실행할때만 실행됨")
             firstCoreData(memoContainer)
@@ -85,8 +97,9 @@ class MemoViewController: UIViewController {
         topTitleView.addSubview(topTitleLabel)
     }
     private func setLayout() {
+        let topTitleViewHeight = view.frame.height/8
         topTitleView.snp.makeConstraints { make in
-            make.height.equalTo(view.frame.height/8)
+            make.height.equalTo(topTitleViewHeight)
             make.leading.trailing.equalToSuperview()
             make.top.equalToSuperview()
         }
