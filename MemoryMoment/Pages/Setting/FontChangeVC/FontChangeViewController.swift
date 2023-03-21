@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FontChangeViewController: UIViewController {
+final class FontChangeViewController: UIViewController, ViewControllerBaseProtocol {
 
     private let sampleLabel = UILabel()
     private let sampleTextView = UITextView()
@@ -29,7 +29,7 @@ class FontChangeViewController: UIViewController {
         
     }
     
-    private func setAttribute() {
+    internal func setAttribute() {
         self.view.backgroundColor = .mainColor
 
         sampleLabel.do {
@@ -56,11 +56,11 @@ class FontChangeViewController: UIViewController {
         
     }
 
-    private func addView() {
+    internal func addView() {
         self.view.addSubviews([sampleLabel, sampleTextView, fontListTableView])
     }
 
-    private func setLayout() {
+    internal func setLayout() {
         sampleLabel.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(100)
             make.leading.equalToSuperview().offset(30)

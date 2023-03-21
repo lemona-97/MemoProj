@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingViewController: UIViewController {
+final class SettingViewController: UIViewController, ViewControllerBaseProtocol {
     
     //view
     private let topTitleView : UIView = UIView()
@@ -38,7 +38,7 @@ class SettingViewController: UIViewController {
         font = FontManager.getFont()
         resetFont()
     }
-    private func setAttribute(){
+    internal func setAttribute(){
         self.view.backgroundColor = .mainColor
 
         topTitleView.do {
@@ -82,13 +82,13 @@ class SettingViewController: UIViewController {
         }
     }
 
-    private func addView(){
+    internal func addView(){
         self.view.addSubviews([topTitleView, fontSettingBtn, openSourceCheckBtn])
         topTitleView.addSubview(topTitleLabel)
 
     }
 
-    private func setLayout(){
+    internal func setLayout(){
 
         topTitleView.snp.makeConstraints { make in
             make.height.equalTo(view.frame.height/8)

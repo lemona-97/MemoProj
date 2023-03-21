@@ -10,7 +10,7 @@ import RxSwift
 import RxGesture
 import CoreData
 
-class ModiMemoViewController: UIViewController {
+final class ModiMemoViewController: UIViewController, ViewControllerBaseProtocol {
    
     private var disposeBag = DisposeBag()
     
@@ -41,7 +41,7 @@ class ModiMemoViewController: UIViewController {
         super.viewWillAppear(animated)
         setupData()
     }
-    private func setAttribute() {
+    internal func setAttribute() {
         self.view.backgroundColor = .mainColor
         memoTextView.do {
             $0.backgroundColor = .clear
@@ -53,10 +53,10 @@ class ModiMemoViewController: UIViewController {
             $0.titleLabel?.font = font.mediumFont
         }
     }
-    private func addView() {
+    internal func addView() {
         self.view.addSubviews([memoTextView, memoCompletedBtn])
     }
-    private func setLayout() {
+    internal func setLayout() {
 //        self.navigationController?.isNavigationBarHidden = true
         memoTextView.snp.makeConstraints { make in
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)

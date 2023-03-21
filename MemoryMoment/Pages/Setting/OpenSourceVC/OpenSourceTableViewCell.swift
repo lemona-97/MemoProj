@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OpenSourceTableViewCell: UITableViewCell {
+final class OpenSourceTableViewCell: UITableViewCell, ViewControllerBaseProtocol {
 
     var openSourceNameLabel : UILabel = UILabel()
     var openSourceURL : UILabel = UILabel()
@@ -20,7 +20,7 @@ class OpenSourceTableViewCell: UITableViewCell {
         addView()
         setLayout()
     }
-    private func setAttribute() {
+    internal func setAttribute() {
         self.contentView.backgroundColor = .mainColor
         openSourceNameLabel.do {
             $0.text = "오픈 소스 이름"
@@ -40,10 +40,10 @@ class OpenSourceTableViewCell: UITableViewCell {
             $0.font = .systemFont(ofSize: 12, weight: .bold)
         }
     }
-    private func addView() {
+    internal func addView() {
         self.contentView.addSubviews([openSourceNameLabel, openSourceURL, openSourceLisence])
     }
-    private func setLayout() {
+    internal func setLayout() {
         openSourceNameLabel.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(5)
             make.top.equalToSuperview().offset(5)

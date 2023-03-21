@@ -9,7 +9,7 @@ import UIKit
 import FSCalendar
 import CoreData
 
-class DiaryViewController: UIViewController {
+final class DiaryViewController: UIViewController, ViewControllerBaseProtocol {
     
     //view
     private let topTitleView  : UIView = UIView()
@@ -57,7 +57,7 @@ class DiaryViewController: UIViewController {
     }
     
     
-    private func setAttribute(){
+    internal func setAttribute(){
         topTitleView.do {
             $0.backgroundColor = .mainBackgroundColor
             $0.layer.addBorder([.bottom], color: .gray, width: 1)
@@ -132,7 +132,7 @@ class DiaryViewController: UIViewController {
             $0.isHidden = true
         }
     }
-    private func addView() {
+    internal func addView() {
         self.view.addSubviews([topTitleView,
                                diaryCalendar,
                                diaryTextView,
@@ -142,7 +142,7 @@ class DiaryViewController: UIViewController {
                                diaryTextViewStopBtn])
         topTitleView.addSubview(topTitleLabel)
     }
-    private func setLayout() {
+    internal func setLayout() {
         self.view.backgroundColor = .mainColor
         topTitleView.snp.makeConstraints { make in
             make.height.equalTo(view.frame.height/8)

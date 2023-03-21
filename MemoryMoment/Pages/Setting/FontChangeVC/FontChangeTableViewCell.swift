@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FontChangeTableViewCell: UITableViewCell {
+final class FontChangeTableViewCell: UITableViewCell, ViewControllerBaseProtocol {
     
     let fontName : UILabel = UILabel()
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -19,7 +19,7 @@ class FontChangeTableViewCell: UITableViewCell {
     }
     
     
-    private func setAttribute() {
+    internal func setAttribute() {
         self.contentView.backgroundColor = .mainBackgroundColor
         fontName.do {
             $0.font = .systemFont(ofSize: 15)
@@ -27,10 +27,10 @@ class FontChangeTableViewCell: UITableViewCell {
             $0.backgroundColor = .mainBackgroundColor
         }
     }
-    private func addView() {
+    internal func addView() {
         self.contentView.addSubview(fontName)
     }
-    private func setLayout() {
+    internal func setLayout() {
         fontName.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)

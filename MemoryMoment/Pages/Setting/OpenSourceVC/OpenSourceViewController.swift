@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OpenSourceViewController: UIViewController {
+final class OpenSourceViewController: UIViewController, ViewControllerBaseProtocol {
 
     private let openSourceList = [ "Then",
                                    "SnapKit",
@@ -42,7 +42,7 @@ class OpenSourceViewController: UIViewController {
         addDelegate()
     }
    
-    private func setAttribute() {
+    internal func setAttribute() {
         self.view.backgroundColor = .mainColor
         topTitleLabel.do {
             $0.text = "오픈 소스 정보"
@@ -56,10 +56,10 @@ class OpenSourceViewController: UIViewController {
         }
         
     }
-    private func addView() {
+    internal func addView() {
         self.view.addSubviews([topTitleLabel, openSourceTableView])
     }
-    private func setLayout() {
+    internal func setLayout() {
         topTitleLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.top.equalToSuperview().offset(100)
