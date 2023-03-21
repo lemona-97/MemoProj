@@ -8,6 +8,8 @@
 import UIKit
 
 final class TabBarViewController: UITabBarController {
+    
+    
     static let objectRatio  = 4.0 / 7.0
 
     let MemoIconDefault : UIImage = UIImage(imageLiteralResourceName: "pencilDefault.png").resize(toTargetSize: CGSize(width: 52.22*objectRatio, height: 56.78*objectRatio))!.withRenderingMode(.alwaysOriginal)
