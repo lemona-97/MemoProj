@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MemoTableViewCell: UITableViewCell {
+final class MemoTableViewCell: UITableViewCell {
 
     let cellSubjectLabel : UILabel = UILabel()
     let cellDateLabel : UILabel = UILabel()

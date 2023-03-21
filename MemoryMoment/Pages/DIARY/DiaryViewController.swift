@@ -9,7 +9,7 @@ import UIKit
 import FSCalendar
 import CoreData
 
-class DiaryViewController: UIViewController {
+final class DiaryViewController: UIViewController {
     
     //view
     private let topTitleView  : UIView = UIView()

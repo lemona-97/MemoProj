@@ -10,7 +10,7 @@ import RxSwift
 import RxGesture
 import CoreData
 
-class ModiMemoViewController: UIViewController {
+final class ModiMemoViewController: UIViewController {
    
     private var disposeBag = DisposeBag()
     

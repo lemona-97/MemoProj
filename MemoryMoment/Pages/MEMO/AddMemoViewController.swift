@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxGesture
 import CoreData
-class AddMemoViewController: UIViewController {
+final class AddMemoViewController: UIViewController {
     
     private var disposeBag : DisposeBag = DisposeBag()
     private let memoTextView : UITextView = UITextView()

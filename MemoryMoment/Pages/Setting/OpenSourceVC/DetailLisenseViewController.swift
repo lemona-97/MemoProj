@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailLisenseViewController: UIViewController {
+final class DetailLisenseViewController: UIViewController {
     
     var openSourceDetail : UITextView = UITextView()
     

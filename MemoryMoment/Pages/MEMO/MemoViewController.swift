@@ -10,7 +10,7 @@ import Then
 import SnapKit
 import CoreData
 
-class MemoViewController: UIViewController {
+final class MemoViewController: UIViewController {
 
     private let topTitleView : UIView = UIView()
     private let topTitleLabel : UILabel = UILabel()

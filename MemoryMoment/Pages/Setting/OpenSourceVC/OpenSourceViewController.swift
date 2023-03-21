@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OpenSourceViewController: UIViewController {
+final class OpenSourceViewController: UIViewController {
 
     private let openSourceList = [ "Then",
                                    "SnapKit",

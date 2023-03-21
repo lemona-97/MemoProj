@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OpenSourceTableViewCell: UITableViewCell {
+final class OpenSourceTableViewCell: UITableViewCell {
 
     var openSourceNameLabel : UILabel = UILabel()
     var openSourceURL : UILabel = UILabel()

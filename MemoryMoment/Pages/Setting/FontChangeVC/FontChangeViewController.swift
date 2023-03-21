@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FontChangeViewController: UIViewController {
+final class FontChangeViewController: UIViewController {
 
     private let sampleLabel = UILabel()
     private let sampleTextView = UITextView()
