@@ -104,8 +104,8 @@
 		FA43ED9A297A45E6000DA9BD /* MemoryMomentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryMomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA43ED9E297A45E6000DA9BD /* MemoryMomentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMomentUITests.swift; sourceTree = "<group>"; };
 		FA43EDA0297A45E6000DA9BD /* MemoryMomentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMomentUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FA798A15297FC2C2003FAD3F /* DIARYDATA+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DIARYDATA+CoreDataClass.swift"; path = "../DIARYDATA+CoreDataClass.swift"; sourceTree = "<group>"; };
-		FA798A16297FC2C2003FAD3F /* MEMODATA+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MEMODATA+CoreDataClass.swift"; path = "../MEMODATA+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA798A15297FC2C2003FAD3F /* DIARYDATA+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DIARYDATA+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA798A16297FC2C2003FAD3F /* MEMODATA+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MEMODATA+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FA798A19297FC2CC003FAD3F /* DIARYDATA+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DIARYDATA+CoreDataProperties.swift"; path = "/Users/wooseob/git/MemoryMoment/DIARYDATA+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		FA798A1A297FC2CC003FAD3F /* MEMODATA+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MEMODATA+CoreDataProperties.swift"; path = "/Users/wooseob/git/MemoryMoment/MEMODATA+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		FA798A1D2980FE10003FAD3F /* FontChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontChangeViewController.swift; sourceTree = "<group>"; };
@@ -221,21 +221,13 @@
 		FA43ED79297A45E4000DA9BD /* MemoryMoment */ = {
 			isa = PBXGroup;
 			children = (
-				FA798A4329824E00003FAD3F /* CustomClass */,
-				FA798A1A297FC2CC003FAD3F /* MEMODATA+CoreDataProperties.swift */,
-				FA798A19297FC2CC003FAD3F /* DIARYDATA+CoreDataProperties.swift */,
-				FA798A15297FC2C2003FAD3F /* DIARYDATA+CoreDataClass.swift */,
-				FA798A16297FC2C2003FAD3F /* MEMODATA+CoreDataClass.swift */,
-				FA93494A297BAAE400B77A41 /* Extension */,
+				FAC598BE297B8C5600E67AEF /* Views */,
 				FA8B050229C98B6500227F16 /* Protocol */,
-				FAC598B6297B8BCF00E67AEF /* TabBarViewController.swift */,
-				FAC598BE297B8C5600E67AEF /* Pages */,
-				FA43ED7A297A45E4000DA9BD /* AppDelegate.swift */,
-				FA43ED7C297A45E4000DA9BD /* SceneDelegate.swift */,
-				FA43ED86297A45E5000DA9BD /* Assets.xcassets */,
-				FA43ED88297A45E5000DA9BD /* LaunchScreen.storyboard */,
+				FA798A4329824E00003FAD3F /* CustomClass */,
+				FA8B052929C9972300227F16 /* CoreData */,
+				FA93494A297BAAE400B77A41 /* Extension */,
+				FA8B052A29C9978E00227F16 /* Base */,
 				FA43ED8B297A45E5000DA9BD /* Info.plist */,
-				FA93495D297D1D7A00B77A41 /* firstStartAppFunc.swift */,
 			);
 			path = MemoryMoment;
 			sourceTree = "<group>";
@@ -273,6 +265,7 @@
 		FA798A3D298244F9003FAD3F /* FontChangeVC */ = {
 			isa = PBXGroup;
 			children = (
+				FA798A2129810A24003FAD3F /* Font */,
 				FA798A1D2980FE10003FAD3F /* FontChangeViewController.swift */,
 				FA798A2929810D17003FAD3F /* FontChangeTableViewCell.swift */,
 			);
@@ -306,6 +299,29 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		FA8B052929C9972300227F16 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FA798A1A297FC2CC003FAD3F /* MEMODATA+CoreDataProperties.swift */,
+				FA798A19297FC2CC003FAD3F /* DIARYDATA+CoreDataProperties.swift */,
+				FA798A15297FC2C2003FAD3F /* DIARYDATA+CoreDataClass.swift */,
+				FA798A16297FC2C2003FAD3F /* MEMODATA+CoreDataClass.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FA8B052A29C9978E00227F16 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FA43ED86297A45E5000DA9BD /* Assets.xcassets */,
+				FA43ED88297A45E5000DA9BD /* LaunchScreen.storyboard */,
+				FA43ED7A297A45E4000DA9BD /* AppDelegate.swift */,
+				FA43ED7C297A45E4000DA9BD /* SceneDelegate.swift */,
+				FA93495D297D1D7A00B77A41 /* firstStartAppFunc.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		FA93494A297BAAE400B77A41 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,7 +336,7 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
-		FA934965297D48FC00B77A41 /* MEMO */ = {
+		FA934965297D48FC00B77A41 /* MemoVC */ = {
 			isa = PBXGroup;
 			children = (
 				FAC598B8297B8C1200E67AEF /* MemoViewController.swift */,
@@ -328,36 +344,36 @@
 				FA934955297BC84300B77A41 /* AddMemoViewController.swift */,
 				FA93494F297BC1F200B77A41 /* MemoTableViewCell.swift */,
 			);
-			path = MEMO;
+			path = MemoVC;
 			sourceTree = "<group>";
 		};
-		FA934966297D490600B77A41 /* DIARY */ = {
+		FA934966297D490600B77A41 /* DiaryVC */ = {
 			isa = PBXGroup;
 			children = (
 				FAC598BA297B8C3300E67AEF /* DiaryViewController.swift */,
 			);
-			path = DIARY;
+			path = DiaryVC;
 			sourceTree = "<group>";
 		};
-		FA934969297E7FBE00B77A41 /* Setting */ = {
+		FA934969297E7FBE00B77A41 /* SettingVC */ = {
 			isa = PBXGroup;
 			children = (
-				FA798A2129810A24003FAD3F /* Font */,
 				FAC598BC297B8C4700E67AEF /* SettingViewController.swift */,
 				FA798A3D298244F9003FAD3F /* FontChangeVC */,
 				FA798A3E29824505003FAD3F /* OpenSourceVC */,
 			);
-			path = Setting;
+			path = SettingVC;
 			sourceTree = "<group>";
 		};
-		FAC598BE297B8C5600E67AEF /* Pages */ = {
+		FAC598BE297B8C5600E67AEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA934965297D48FC00B77A41 /* MEMO */,
-				FA934966297D490600B77A41 /* DIARY */,
-				FA934969297E7FBE00B77A41 /* Setting */,
+				FAC598B6297B8BCF00E67AEF /* TabBarViewController.swift */,
+				FA934965297D48FC00B77A41 /* MemoVC */,
+				FA934966297D490600B77A41 /* DiaryVC */,
+				FA934969297E7FBE00B77A41 /* SettingVC */,
 			);
-			path = Pages;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
