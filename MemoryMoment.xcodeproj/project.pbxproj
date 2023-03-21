@@ -36,6 +36,7 @@
 		FA798A4529824E1C003FAD3F /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA798A4429824E1C003FAD3F /* IndicatorView.swift */; };
 		FA798A4729825B6F003FAD3F /* LisenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA798A4629825B6F003FAD3F /* LisenseManager.swift */; };
 		FA798A4D29826223003FAD3F /* DetailLisenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA798A4C29826223003FAD3F /* DetailLisenseViewController.swift */; };
+		FA8B050829C98CF800227F16 /* ViewControllerBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B050729C98CF800227F16 /* ViewControllerBaseProtocol.swift */; };
 		FA93494C297BAE4E00B77A41 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93494B297BAE4E00B77A41 /* UIImage.swift */; };
 		FA93494E297BB2EA00B77A41 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93494D297BB2EA00B77A41 /* UIView.swift */; };
 		FA934950297BC1F200B77A41 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93494F297BC1F200B77A41 /* MemoTableViewCell.swift */; };
@@ -124,6 +125,7 @@
 		FA798A4C29826223003FAD3F /* DetailLisenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLisenseViewController.swift; sourceTree = "<group>"; };
 		FA798A742991F5AC003FAD3F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		FA798A762991F5AD003FAD3F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FA8B050729C98CF800227F16 /* ViewControllerBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBaseProtocol.swift; sourceTree = "<group>"; };
 		FA93494B297BAE4E00B77A41 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		FA93494D297BB2EA00B77A41 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		FA93494F297BC1F200B77A41 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				FA798A15297FC2C2003FAD3F /* DIARYDATA+CoreDataClass.swift */,
 				FA798A16297FC2C2003FAD3F /* MEMODATA+CoreDataClass.swift */,
 				FA93494A297BAAE400B77A41 /* Extension */,
+				FA8B050229C98B6500227F16 /* Protocol */,
 				FAC598B6297B8BCF00E67AEF /* TabBarViewController.swift */,
 				FAC598BE297B8C5600E67AEF /* Pages */,
 				FA43ED7A297A45E4000DA9BD /* AppDelegate.swift */,
@@ -293,6 +296,14 @@
 				FA798A4429824E1C003FAD3F /* IndicatorView.swift */,
 			);
 			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		FA8B050229C98B6500227F16 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B050729C98CF800227F16 /* ViewControllerBaseProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		FA93494A297BAAE400B77A41 /* Extension */ = {
@@ -604,6 +615,7 @@
 				FA798A3C2981267B003FAD3F /* FontManager.swift in Sources */,
 				FA93494C297BAE4E00B77A41 /* UIImage.swift in Sources */,
 				FAC598B9297B8C1200E67AEF /* MemoViewController.swift in Sources */,
+				FA8B050829C98CF800227F16 /* ViewControllerBaseProtocol.swift in Sources */,
 				FA934956297BC84300B77A41 /* AddMemoViewController.swift in Sources */,
 				FA93495E297D1D7A00B77A41 /* firstStartAppFunc.swift in Sources */,
 				FAC598BD297B8C4700E67AEF /* SettingViewController.swift in Sources */,

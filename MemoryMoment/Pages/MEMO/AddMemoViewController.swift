@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxGesture
 import CoreData
-final class AddMemoViewController: UIViewController {
+final class AddMemoViewController: UIViewController, ViewControllerBaseProtocol {
     
     private var disposeBag : DisposeBag = DisposeBag()
     private let memoTextView : UITextView = UITextView()
@@ -30,7 +30,7 @@ final class AddMemoViewController: UIViewController {
         
     }
 
-    private func setAttribute() {
+    internal func setAttribute() {
         self.view.backgroundColor = .mainColor
         memoTextView.do {
             $0.backgroundColor = .clear
@@ -42,10 +42,10 @@ final class AddMemoViewController: UIViewController {
             $0.isHidden = true
         }
     }
-    private func addView() {
+    internal func addView() {
         self.view.addSubviews([memoTextView, memoCompletedBtn])
     }
-    private func setLayout() {
+    internal func setLayout() {
 //        self.navigationController?.isNavigationBarHidden = true
         memoTextView.snp.makeConstraints { make in
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)

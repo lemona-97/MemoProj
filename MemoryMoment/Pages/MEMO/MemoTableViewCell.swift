@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MemoTableViewCell: UITableViewCell {
+final class MemoTableViewCell: UITableViewCell, ViewControllerBaseProtocol {
 
     let cellSubjectLabel : UILabel = UILabel()
     let cellDateLabel : UILabel = UILabel()
@@ -25,7 +25,7 @@ final class MemoTableViewCell: UITableViewCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    private func setAttribute() {
+    internal func setAttribute() {
         self.contentView.backgroundColor = .mainColor
         cellSubjectLabel.do {
             $0.text = "제목이 들어갈 곳"
@@ -47,10 +47,10 @@ final class MemoTableViewCell: UITableViewCell {
             $0.text = "내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. 내용이 들어갈 곳. "
         }
     }
-    private func addView() {
+    internal func addView() {
         self.contentView.addSubviews([cellSubjectLabel,cellDateLabel,cellContent])
     }
-    private func setLayout() {
+    internal func setLayout() {
         cellSubjectLabel.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(10)
             make.top.equalToSuperview().offset(10)

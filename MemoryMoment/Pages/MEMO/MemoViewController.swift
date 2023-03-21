@@ -10,7 +10,7 @@ import Then
 import SnapKit
 import CoreData
 
-final class MemoViewController: UIViewController {
+final class MemoViewController: UIViewController, ViewControllerBaseProtocol {
 
     private let topTitleView : UIView = UIView()
     private let topTitleLabel : UILabel = UILabel()
@@ -69,7 +69,7 @@ final class MemoViewController: UIViewController {
             print("변경 사항 없음")
         }
     }
-    private func setAttribute() {
+    internal func setAttribute() {
         view.backgroundColor = .mainColor
         topTitleView.do {
             $0.backgroundColor = .mainBackgroundColor
@@ -91,12 +91,12 @@ final class MemoViewController: UIViewController {
             $0.separatorColor = .mainBackgroundColor
         }
     }
-    private func addView(){
+    internal func addView(){
         self.view.addSubviews([topTitleView, memoTableView, addMemoBtn])
         
         topTitleView.addSubview(topTitleLabel)
     }
-    private func setLayout() {
+    internal func setLayout() {
         let topTitleViewHeight = view.frame.height/8
         topTitleView.snp.makeConstraints { make in
             make.height.equalTo(topTitleViewHeight)

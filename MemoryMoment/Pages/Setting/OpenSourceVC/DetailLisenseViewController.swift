@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class DetailLisenseViewController: UIViewController {
+final class DetailLisenseViewController: UIViewController, ViewControllerBaseProtocol {
     
     var openSourceDetail : UITextView = UITextView()
     
@@ -20,7 +20,7 @@ final class DetailLisenseViewController: UIViewController {
         setLayout()
     }
     
-    private func setAttribute() {
+    internal func setAttribute() {
         self.view.backgroundColor = .mainColor
         openSourceDetail.do {
             $0.font = .systemFont(ofSize: 11)
@@ -29,10 +29,10 @@ final class DetailLisenseViewController: UIViewController {
             $0.isEditable = false
         }
     }
-    private func addView() {
+    internal func addView() {
         self.view.addSubview(openSourceDetail)
     }
-    private func setLayout() {
+    internal func setLayout() {
         openSourceDetail.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(50)
             make.leading.equalToSuperview().offset(20)
