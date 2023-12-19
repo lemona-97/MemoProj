@@ -1,6 +1,4 @@
-# MoMo
-
-# 눈이 편안한 메모앱
+# MoMo 눈이 편안한 메모앱
 MemoryMoment
 <br>
 <img src = "https://github.com/lemona-97/MemoProj/assets/75213755/85641a92-60e8-4120-905e-96011c5fbdfc" width="30%" height="30%">
